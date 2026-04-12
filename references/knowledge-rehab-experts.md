@@ -2201,3 +2201,481 @@ Once correctives have resolved a failure pattern, move the athlete to 5-minute m
 **For FMS certification and updated protocols:** www.functionalmovement.com  
 **Cook's subsequent work:** *Movement* (2010) expanded the clinical SFMA; this book remains the foundational accessible text for coaches.
 
+
+---
+
+## Book Supplement — Becoming a Supple Leopard (Kelly Starrett, 2013)
+
+**Source:** Starrett, K. & Cordoza, G. (2013). *Becoming a Supple Leopard: The Ultimate Guide to Resolving Pain, Preventing Injury, and Optimizing Athletic Performance.* Victory Belt Publishing. 937 pp.  
+**Note:** This section supplements the existing Starrett knowledge base (sourced from online articles/MobilityWOD). It extracts specific protocols, principles, and prescriptions directly from the book's full text.
+
+---
+
+### 1. Core Philosophy — Movement Before Mobilization
+
+Starrett's central thesis: **position and movement are the disease; tissue restriction is the symptom.** Three principles govern all human movement:
+
+1. **Midline Stabilization and Organization** (spinal mechanics) — must be established before any other work
+2. **One-Joint Rule** — movement occurs at hinge joints (hips, shoulders); the spine never flexes or extends at a single local segment under load
+3. **Laws of Torque** — stability is generated through rotational force; no torque = no stability
+
+**The correct priority order:**
+- Fix spinal position first
+- Fix motor-control errors second
+- Mobilize restricted tissue third
+
+**Key insight:** What looks like tight hamstrings is often the body protecting the nervous system via spinal mispositioning. Organizing the spine in a braced-neutral position can instantly improve hamstring range-of-motion by up to 50% without any tissue work.
+
+**Pain is a lagging indicator.** By the time you feel it, millions of movement cycles have already been consumed. Movement signal overrides pain signal during training — you may not feel the damage until you cool down. This is why athletes train through injury without knowing it.
+
+---
+
+### 2. The Bracing Sequence — 4-Step Protocol
+
+Execute this sequence before every lift, every athletic movement, and every time you sit down. It must become an automatic motor program — the same result every single time, regardless of fatigue or stress.
+
+**Step 1 — Set the pelvis:** Feet directly under hips, parallel. Screw feet into the ground (external rotation). **Squeeze your butt as hard as possible.** Do not think about tilting the pelvis — the glutes set the position automatically. Abs cannot control pelvis position; glutes can. Only the glutes were engineered specifically for pelvis and spine positioning.
+
+**Step 2 — Pull the ribcage down:** Draw lower ribs in, aligning ribcage over pelvis. Cue: imagine two bowls of liquid — one at pelvis, one at ribcage. Neither bowl should spill. Overextension = liquid pours out front of pelvis + back of ribcage. Flexion fault = opposite direction.
+
+**Step 3 — Get belly tight:** While maintaining glute squeeze, take a big breath, exhale, and engage abs. Cue: "shrink-wrap your spine." This is NOT hollowing or sucking in — it is **stiffening in place as you exhale**. Minimum 20% tension required to maintain braced-neutral. Alternative cue: sphincter to bellybutton (pelvic floor lift). Once braced, breathe INTO the tight space — put compressed air into a rigid steel tank, not around it. Glutes set position; abs brace position.
+
+**Step 4 — Set head and shoulders:** Ears over shoulders, shoulders over hips, hips over ankles. Draw arm bones back, spread collarbones wide, release shoulders down. Thumbs forward. Shoulder blades reach toward hips — do NOT squeeze them together. This achieves stable external rotation at the shoulder without over-retraction.
+
+**Two-Hand Rule (coaching diagnostic):** One thumb on sternum, one thumb on pubic bone, palms facing down, both hands on same horizontal plane. Overextension = hands drift apart. Flexion fault = hands converge. Head is the third reference point — cervical spine out of position compromises all downstream stability.
+
+**Pelvic floor note:** Overextended lumbar spine turns off the pelvic floor. Athletes with bladder control issues during double-unders or jumping: fix pelvic position first — squeeze glutes, brace abs. Most issues resolve spontaneously.
+
+---
+
+### 3. Laws of Torque — The Stability Mechanism
+
+**Torque** is the "strongman's magic ingredient" — the rotational force that closes the stability circuit. Without torque, ankles collapse, knees cave, hips wobble, spine bends, shoulders round. All common S&C cues (screw your feet into the ground, spread the floor, break the bar, elbows in, armpits forward) are torque-generation cues, even when not named as such.
+
+**Law #1: Flexion requires External Rotation for stability**
+- When legs or arms are in flexion, generate external rotation force
+- Squatting: screw feet into ground, spread floor, drive knees out
+- Pressing/pulling overhead: armpits forward, elbows in, break the bar
+- Covers the broad spectrum of human athletic movement — squatting, pressing, pulling all fall here
+- External rotation = high-torque environment = joint stability
+
+**Law #2: Extension requires Internal Rotation for stability**
+- When legs or arms are in extension, generate internal rotation force
+- Applies to: split-jerk back leg, arm swing during running, jumps, throws
+- A boxer's cross (rear hand): technically proficient fighters screw (internally rotate) the wrist as they extend the punch
+- Key exception: if arms are bent (flexion) while shoulder is in extension — e.g., bench press, pushup, dip, running arm swing — external rotation still applies because arms are in flexion
+
+**Practical torque cues by movement:**
+- Squat: screw feet into ground (external rotation) → arches rise, glutes maximally activate
+- Pushup/Bench press: screw hands into ground, elbows in (external rotation)
+- Overhead press: armpits forward, elbows in
+- Running arm swing: slight internal rotation as arm extends behind body, external rotation as arm swings forward
+- Split-jerk back leg: internal rotation of trailing hip → stable extension position
+
+**Torque Test — Open Foot vs. Neutral Foot:**
+Stand with feet parallel, brace, screw feet out → foot arch rises, glutes maximally activate. Now turn feet out 30 degrees, repeat → arch does NOT form, glutes cannot fully engage, torque is absent. Neutral/straight foot is prerequisite for maximum torque generation. Turned-out foot = low-torque environment = collapsed arch = ACL risk pattern. An oblique load on the Achilles (from open-foot positioning) is a primary mechanism for Achilles rupture, tendinopathy, and ACL tears.
+
+**Key implication:** Collapsed arches are NOT a foot problem — they are a torque/external rotation problem. Collapsed navicular (arch) is a reliable predictor of ACL tears — NFL teams check for this in combine evaluations.
+
+---
+
+### 4. The Movement Hierarchy — 3 Categories
+
+All functional movements fall into three categories based on motor-control and mobility demands. Use this as a diagnostic progression framework.
+
+**Category 1 — Maintained Torque (Static Stability)**
+- Athlete maintains torque throughout the entire range of motion
+- Examples: air squat, back squat, front squat, overhead squat, deadlift, pushup, ring pushup, bench press, floor press, dip, ring dip, strict press, handstand pushup, pull-up, chin-up
+- Position of healthy stability (PHS) held at start AND finish
+- These movements expose motor-control and mobility errors in their most visible, correctable form
+- Athletes can hide dysfunction here by adjusting weight and tempo — coaches must still look for it
+
+**Category 2 — Inserted Speed Element (Dynamic Stability)**
+- Same PHS start and finish, but a speed/power element is inserted between — athlete must spontaneously re-establish stability after loss of torque
+- Examples: wall ball, push-press, jumping and landing, kettlebell swing, rowing, kipping pull-up, snatch balance
+- Dysfunction becomes harder to hide: knees cave, lumbar spine overextends, torque collapses at landing
+- Exposes athletes who could mask restriction in Category 1
+
+**Category 3 — Change of Direction (Sports-Specific)**
+- Movement transitions from one completely different shape to another through a position of transition (momentary loss of torque)
+- Examples: clean, power clean, hang clean, push-jerk, snatch, muscle-up, Turkish getup, burpee
+- Snatch example: pulling position → weightless moment of no torque → overhead squat receive position. Must spontaneously arrive in PHS after loss of torque
+- Most closely resembles sports movements: cutting, tackling, catching
+- Highest exposure of mobility and motor-control deficits
+
+**3-Squat Diagnostic:** Air squat → hands-behind-head squat → overhead squat. Each iteration increases upright torso demand and exposes progressively deeper mobility and motor-control deficits. Every fault exposed in the overhead squat that was hidden in the air squat is a real restriction that will show up at game speed.
+
+---
+
+### 5. The Tunnel — Setup Dictates Finish
+
+The tunnel is the mental model for why setup precedes everything. You cannot turn a bad position into a good position once you are in motion.
+
+- If you enter the tunnel (start position) in a bad position, you will exit in a bad position — or be forced to abort
+- Coaches shouting "knees out!" or "flat back!" mid-lift is useless — position correction must occur before movement begins
+- The finish position of one rep is the start position of the next (especially critical for kipping pull-ups, Olympic lifts, running stride cycles)
+- "If you exit a tunnel of movement in a bad position, you will enter the next tunnel in a compromised position."
+
+**MOB 1 vs MOB 2 (assessment protocol):**
+- MOB 1 = start/top position of movement
+- MOB 2 = finish/bottom position
+- When assessing dysfunction: check MOB 1 first (setup issue or upstream restriction?), then MOB 2 (mobility deficit at end-range?)
+- If MOB 1 is good but MOB 2 breaks down = mobility issue in end-range position. If MOB 1 is compromised = motor-control error or upstream restriction
+
+---
+
+### 6. The Mobility Systems — 3-Layer Model
+
+Starrett replaces "stretching" and "flexibility" with **mobilization**: a movement-based, integrated, full-body approach addressing all elements that limit movement. Static end-range stretching addresses one system poorly, doesn't improve motor-control, and doesn't inform anything about joint position or motor ability.
+
+**Mobilization = movement-based, integrated approach that takes into account:**
+- Short and tight muscles
+- Soft tissue and joint capsular restriction
+- Motor-control problems
+- Joint range-of-motion dysfunction
+- Neural dynamic issues
+
+**The 3-system mobility checklist — work through in this order:**
+
+**Layer 1 — Joint Mechanics**
+- The joint capsule (thick ligamentous sac surrounding the joint) becomes adaptively short when held in bad positions for extended periods
+- Rounded shoulders → anterior shoulder capsule shortens, external rotators turn off, pecs become functionally short
+- Prolonged sitting → hip capsule shortens anteriorly, hip flexors become adaptively short
+- Fix: banded distractions that create space inside the joint capsule; restoring thoracic mobility restores shoulder joint mechanics automatically
+- Skin-pinch test: grab skin around hip flexor crease while standing; hip flexors immediately shorten. This is exactly what sitting all day does to the body.
+
+**Layer 2 — Sliding Surface**
+- Skin, nerves, and musculature must slide freely relative to each other
+- Scar tissue, dehydration, repetitive movement in poor positions → surfaces become "tacked down"
+- Fix: pressure wave smashing, ball whacking, Voodoo flossing compression; the shearing force between layers is what restores sliding
+
+**Layer 3 — Muscle Dynamics**
+- Short and tight muscle bellies, neurodynamic restriction, intramuscular stiffness
+- Fix: contract-and-relax (PNF-based), foam rolling with intentional pressure, sustained hold at position of restriction
+
+**Key principle:** Mobilization techniques typically address more than one system simultaneously. Banded distraction affects joint mechanics AND sliding surface. Voodoo flossing affects all three. You don't need to separate them — but you do need to understand which system is limiting your specific movement.
+
+---
+
+### 7. Mobilization Methods — Complete Technique Guide
+
+**Pressure Wave**
+- Place body weight over ball or roller; slowly roll tissues across the object creating a wave of pressure
+- Rule: move SLOW. Fast rolling with engaged muscles does nothing. Get all weight over the ball, move deliberately
+- At a tight area: pause, explore with oscillation, position change, or contract-and-relax
+- The more intentional the pressure, the more change
+
+**Contract and Relax (PNF-based)**
+- Move joint to end-range; create tension by driving against resistance for 5 seconds; release; move into new range for 10 seconds
+- Exploits proprioceptive neuromuscular facilitation — post-isometric relaxation allows the nervous system to permit greater range
+- Most effective method for acute tissue change within a session
+- Can be layered onto any other technique (ball smash + contract-and-relax)
+
+**Banded Flossing (Joint Distraction)**
+- Monster resistance band creates lateral or posterior distraction at the joint, clearing impingement, creating joint capsule space
+- Hip: band pulls femur laterally out of acetabulum → allows deeper flexion without bone-on-bone impingement
+- Ankle: band wraps posteriorly around Achilles/ankle → pulls talus back, clears anterior ankle impingement that blocks dorsiflexion
+- Key: band must be positioned AT the joint crease, not around the muscle belly
+
+**Smash and Floss**
+- Combination: compress tissue with ball/roller while simultaneously moving the joint through range of motion
+- Creates shearing effect between tissue layers — restores sliding surface function more effectively than static compression alone
+- Example: ball behind knee, curl heel to butt while pressing ball in — targets lower hamstring and popliteal area
+
+**Paper-clipping / Oscillation**
+- Slowly move in and out of peak end-range tension — drive to peak, hang 1-2 seconds, retreat slightly, re-drive
+- Do NOT bounce. Oscillate slowly at the edge of range
+- Particularly effective when combined with banded distraction; lets you explore positions of tightness dynamically
+
+**Voodoo Flossing (Compression)**
+- Wrap a voodoo floss band tightly around a joint or chunk of tissue; move joint through full range of motion
+- Works on all three systems simultaneously: restores sliding surface (global shearing effect), creates flexion-gapping at joint (joint mechanics), and addresses muscle dynamics
+- Rated by Starrett as the most powerful and effective single method for restoring position and motion
+- Also pushes swelling back into lymphatic system — highly effective for acute swollen joints; use immediately post-injury, not just ice
+- Technique: wrap distal to proximal, 50% overlap, 50% stretch on the band
+- Duration: 1-2 minutes maximum; remove if tingling/numbness exceeds normal discomfort
+
+**Flexion Gapping**
+- Roll up a towel, jam it behind knee or elbow, apply compression/flexion force over the fulcrum
+- Removes joint capsule restriction; restores flexion range at secondary engines (knee, elbow)
+- Standard you should meet: calf flush with hamstring (knee), forearm flush with bicep (elbow) without any effort or pain
+
+---
+
+### 8. Rules of Mobility — The 6 Laws
+
+**Rule 1 — Test and Retest:** Everything must show observable, measurable, repeatable change. Before mobilizing: assess restriction. After: retest the same movement. If no improvement → you didn't address the right system. Move to a different area. This feedback loop is non-negotiable.
+
+**Rule 2 — 2-Minute Minimum:** Research is unequivocal: it takes at least 2 minutes of continuous work to make soft tissue change. Two minutes is the minimum therapeutic dose per position per side. Do not rush to the next mobilization before experiencing change in the tissue. Work a restricted area until improvement is felt — could be 2 minutes or 10 minutes.
+
+**Rule 3 — Maximum 3 Target Areas Per Session:** Do not attempt 10 mobilizations. Three is the effective limit per 15-20 minute session. Choose: (1) painful/restricted area, (2) position trying to improve, (3) undo sitting/lifestyle damage.
+
+**Rule 4 — No Days Off:** Mobility is daily practice, not gym-day-only. The day after training is when the most muscle stiffness aggregates — this is when mobilizing matters most. Minimum 15-20 minutes every single day. This accumulates to 140+ minutes per week — a clinically significant dose.
+
+**Rule 5 — Don't Enter the Pain Cave:** Mobilizing restricted tissue is uncomfortable but should not feel like tearing or burning damage. "Stand at the entrance of the pain cave, don't enter it." Hot burning pain = stop. Hip impingement = stop, address the cause. Discomfort = proceed. Also: don't make a pain face — it shortens neck flexors and maps pain onto the expression neurologically, which compounds the problem in training.
+
+**Rule 6 — Mobilize in Good Position:** Never mobilize from a spinal fault or unstable joint position. Doing so reinforces the bad pattern. If ankles collapse during a calf stretch, reset. If back rounds during hip flexor work, reset. A mobilization done in a bad position is worse than no mobilization.
+
+**Informed Freestyle:** The demonstrations are a guide, not a script. As long as you maintain good position, explore areas that feel tight. Rotate, side-bend, add arm overhead, change hip angle. You know where YOUR specific tightness lives — target it.
+
+---
+
+### 9. Programming For Mobility — Daily Protocol Template
+
+**Minimum daily dose:** 15-20 minutes  
+**Session structure (in priority order):**
+1. Resolve painful/restricted areas first (center of the target — primary)
+2. Work positions of restriction you're trying to improve (bottom of squat, overhead, hip extension)
+3. Undo lifestyle damage (sitting = hip flexors/anterior chain every day)
+
+**Sample 16-minute session:**
+- Shoulder capsule mobilization: 2 min each arm (4 min total)
+- Overhead banded distraction: 2 min each arm (4 min total)
+- Single-leg squat flexion with external rotation bias: 2 min each side (4 min total)
+- Super-couch mobilization: 2 min each side (4 min total)
+
+**Upstream-Downstream approach (for pain/injury):**
+When you cannot directly access the painful site (acute injury, swelling), mobilize the tissue one joint above AND one joint below the problem. Rationale: you are encased in fascia — tight tissues upstream/downstream pull on the painful joint and restrict its mechanics.
+- Knee pain → mobilize quads and hip (upstream) + calf, shin, ankle (downstream)
+- Ankle pain → mobilize calf and heel cord (upstream) + plantar surface (downstream)
+- Low back pain → mobilize thoracic spine (upstream) + glutes, hip capsule (downstream)
+- "Where the rats get in is not necessarily where they chew."
+
+**Pre-training mobility:** Only banded distraction and oscillation methods that look like the movement you're about to do (banded hip extension lunge before Olympic lifting). Do NOT smash tissue then immediately load it — this destabilizes the tissue temporarily.
+
+**Post-training:** Smash first (pressure wave the stiff areas created by training), then move into end-range. Voodoo floss swollen joints immediately post-training — more effective than ice alone.
+
+---
+
+### 10. Thoracic Spine Protocol (Area 1) — Complete Prescription
+
+**Target:** Base of ribcage to base of neck and top of scapula  
+**Tools:** Foam roller, double lacrosse ball (LAX peanut), single lacrosse ball, barbell  
+**Tests that improve:** Overhead positioning, hanging from bar, back squat setup, front rack position, handstand pushup, pushup/bench press
+
+**T-Spine Foam Roller Extension Smash (Global — "Thoracic Mobility 101")**
+- Wrap arms around chest (big hug) to pull soft tissue and scapula out of the way, targeting vertebral motion segments directly
+- Position roller at base of ribcage
+- Arch back HARD over roller — create maximum teeter-totter extension force. Aimless rolling does nothing.
+- Find a tight segment: arch back, let the roller "break you" into extension. Take a big breath, snake around, elevate hips to increase pressure, lower to decrease
+- Stay on the tight area until change is felt; then sit up (crunch-style), scoot hips toward feet, slide down the roller, progress to next segment
+- Work from base of ribcage to base of neck in segments
+
+**T-Spine Side-to-Side Smash**
+- For areas not responding to extension alone
+- Roll from side to side across tissue while maintaining upper back tightness; twist from hips or rotate full body — there is no wrong way
+- Targets soft tissues adjacent to spine that limit rotation
+- Essential for: any rotational sport (throwing, blocking, tackling)
+
+**T-Spine Double Lacrosse Ball / LAX Peanut (Acute Segmental Work)**
+- Two lacrosse balls taped together with athletic tape (wrap outside, then center) — creates peanut shape
+- Centers of balls nestle on either side of spinous process, blocking facet joints at one specific segment
+- More acute than roller — one motion segment at a time
+- Hug arms, extend over balls, add: arm raises overhead, hip elevations, rotation, side-bending
+- For large/strong athletes: add a 45-lb bumper plate on chest — forces more downward pressure, engages ribs in the mobilization (T-Spine Plate Smash)
+
+**T-Spine Overhead Extension Bias**
+- Arms overhead rather than hugging chest
+- Ties in shoulder flexion, thoracic extension, and rotation simultaneously — the relationship needed for overhead lifting, throwing, catching, blocking
+
+---
+
+### 11. Hip Capsule Protocols (Area 6) — Posterior Chain
+
+**Target:** Glutes, hip capsule, posterior hip structures  
+**Key concept:** Internal rotation capacity is required for stable hip when leg is in extension (running, split-jerk). Missing internal rotation = cannot fully express external rotation when leg is in flexion (squat bottom). These are dependent capacities.
+
+**Banded Ankle/Hip Distraction**
+- Band around top of foot, wrapped at base of heel; foot propped on foam roller to keep hip neutral
+- Opposite leg curled in tight; lie back and relax — let band decompress the hip and knee joint
+- Creates space in both knee and hip capsule simultaneously
+
+**Hip Capsule External Rotation Mobilization**
+- Band pulls femur laterally out of acetabulum
+- Move hip through flexion while band distracts → clears bone-on-bone impingement
+- Allows deeper flexion range previously blocked by capsular restriction
+
+**Hip Capsule Internal Rotation Mobilization**
+- Targets capsular slack for extension + internal rotation (running, sprint mechanics, split-jerk back leg)
+- Without internal rotation in extension, you cannot fully express external rotation in flexion — the movements are coupled
+
+---
+
+### 12. Anterior Hip / Quad Protocols (Area 7) — Hip Flexor Restoration
+
+**Target:** Hip flexors, quadriceps, anterior hip capsule  
+**Priority:** Anyone who sits during the day must address this every day — the hip flexors adaptively shorten to the seated position, creating anterior pelvic tilt and lumbar overextension by default.
+
+**Banded Hip Extension (Entry Level)**
+- Band around hip crease, creating anterior distraction on the femur head
+- Kneel on rear knee; shift ENTIRE body forward — do not thrust hips; do not arch the back
+- Squeeze rear glute hard throughout — failure to do so = overextension of lumbar spine, not hip opening
+- Add: hook foot around a weight to bias internal rotation (the stable hip position)
+
+**Couch Mobilization — The Standard Hip Opener**
+- Position: rear knee in corner of a box or against couch, shin and foot flush with the box side, lead foot forward with vertical shin
+- Step 1 (floor position): squeeze rear glute, drive hip toward ground — end-range knee flexion + hip extension simultaneously. The quad and anterior hip are under maximum tension.
+- Step 2 (upright torso): while maintaining glute squeeze, lift torso fully upright — dramatically increases hip extension demand
+- Duration: 2 minutes minimum each side; typically 2-4 minutes per side for meaningful change
+- Inability to get into floor position = serious hip flexor/quad restriction; start with lead knee on ground and support from a box in front
+
+**Common faults:**
+- Knee slides out to side (avoiding end-range) — keep it pinned in the corner
+- Glutes release tension — "if your butt goes off tension, a dear friend will probably die" — squeeze relentlessly
+- Overextension of lumbar spine — only glute squeeze + braced core prevents this; both must be active
+
+**Super Couch (DEFCON 5 version — "Laura Phelps" variation)**
+- Add a monster band creating forward (anterior) distraction force on the femur head
+- 10x more effective and 10x more painful than standard couch
+- Do not attempt if full range has not been achieved with standard couch
+- Coach Roop variation: wrap band around leg pinning foot to butt, tied to a pole — allows solo setup without a training partner
+
+**Trailing Leg Hip Extension (Pure Extension Bias)**
+- Standard couch variants always involve knee flexion component — this never fully addresses pure hip extension
+- Sprawl trailing leg completely straight back; band around hip crease creates anterior distraction
+- Squeeze glute, drive hip toward ground; explore: drop hip to side, push toward split position
+- Add internal rotation bias: rise onto ball of back foot, rotate knee toward inside of body — mimics split-jerk and sprint mechanics
+
+**Reverse Ballerina**
+- Leg on a box at side (abduction), torso rotates away from the leg
+- Captures hip extension + internal rotation + adductor stiffness simultaneously
+- Critical for correcting bottom-of-squat "butt wink" (tight adductors pulling pelvis under in flexion)
+- Relevant for any cutting, kicking, or rotational leg-swing movement
+
+---
+
+### 13. Calf, Ankle, and Plantar Protocols (Areas 12-13)
+
+**Why this matters:** Average athlete takes 10,000 steps/day = 5,000 calf loading cycles per leg. Running, sport, and stairs add thousands more. Calf tightness → open-foot stance → collapsed arch → oblique Achilles load → knee cave → hip compensation. The entire lower extremity chain originates in calf mechanics.
+
+**Calf Smash — Roller (Entry Level)**
+- Position calf on roller; cross opposite leg over shin to add pressure
+- Roll SIDE TO SIDE across the tissue — this is more important than rolling up and down
+- Apply contract-and-relax: point and flex toes while under pressure
+- More uncomfortable = more change; do not use gentle pressure
+
+**Bone Saw Calf Smash (Most Effective Single Calf Technique)**
+- Instep on foam roller; shin of opposite leg positioned as a blade across the calf
+- Oscillate the blade shin from side to side — "as if playing a fiddle"
+- Foot is off the ground so the calf is fully relaxed under the load
+- Most effective single calf mobilization for heel cord and posterior calf tissue
+
+**Barbell Calf Smash (Acute Pressure)**
+- Barbell on calf; cross opposite foot over for pressure
+- Can twist the barbell to create pressure wave effect
+- Targets superficial sliding surfaces at base of heel and ankle junction
+
+**Voodoo Calf Mobilization**
+- Wrap voodoo band tightly from ankle up the calf (distal to proximal)
+- Move through full calf range of motion: squat, step forward, point/flex
+- Simultaneously addresses all three systems; most powerful approach for stubborn calf restriction
+
+**Banded Heel Cord (Ankle — Anterior Impingement Fix)**
+- Band wraps posteriorly around Achilles/ankle, creates posterior distraction on talus
+- Clears the anterior ankle impingement (pinching at front of ankle during dorsiflexion)
+- Mechanism: same as banded hip distraction but for the ankle joint — the talus is anteriorly positioned, blocking deep flexion
+- Perform: classic calf stretch or squat while band distracts talus posteriorly; impingement disappears
+
+**Ball Whack (Ankle — First Line Treatment for Limited Dorsiflexion)**
+- When missing ankle range-of-motion: pin lacrosse ball on tacked-down tissue around anklebone
+- Give ball a firm smack or rapidly push it in multiple directions
+- Skin must slide freely over ankle bones and tendons — if it doesn't, this is the first fix
+- Cheap, fast, yields "freakishly good results"; do this before any other ankle work
+
+**Voodoo Ankle Mobilization**
+- Wrap ankle with voodoo band (distal to proximal, 50% overlap)
+- Move ankle through maximum range while wrapped: squat, calf raise, point, flex
+- Banded heel cord works well as an adjunct
+- Most effective protocol for restoring dorsiflexion when anterior ankle impingement is the limiting factor
+
+**Plantar Surface Smash (Plantar Fasciitis Protocol)**
+- Step on lacrosse ball; apply full bodyweight over the ball
+- Contract-and-relax on stiff spots; pressure wave up and down the plantar fascia
+- Take at least 1 full minute to traverse the length of the foot — do NOT mindlessly roll
+- For maximum pressure: stand fully on ball rather than holding a wall
+- Population most at risk: open-foot walkers, collapsed arch athletes, barefoot runners transitioning too quickly
+
+**Medial Shin Smash (Shin Splints + Arch Collapse)**
+- Targets: soleus, posterior tibialis, gastrocnemius (medial line)
+- Medial calf tightness forces open-foot default position → arch collapse
+- Use rolling pin, stick massager, or lacrosse ball on medial shin tissue with downward pressure
+- Improves: neutral foot position, arch maintenance, anterior compartment shin splints
+
+---
+
+### 14. Common Athlete Dysfunction Patterns — Diagnosis and Correction
+
+**Pattern 1 — Collapsed Arch / Duck Feet (Open Foot Stance)**
+- Root cause: insufficient torque generation, not a structural foot problem
+- Mechanism: inability to generate external rotation from the hip → foot turns out as compensation → arch collapses → oblique Achilles load
+- Correction: neutral foot stance in all movements; open foot torque test to feel the difference; calf + medial shin smash to restore sliding surfaces; banded ankle distraction for joint capsule
+
+**Pattern 2 — Knee Cave (Valgus Collapse) in Squat / Landing**
+- Root cause: insufficient hip external rotation torque + tight adductors
+- Associated injuries: ACL tear, medial knee pain, patellar tendinopathy
+- Correction: drive knees out in all squatting; adductor mobilization; banded hip distraction in squat bottom position; reverse ballerina for hip ER and adductor length
+
+**Pattern 3 — Rounded Shoulders / Forward Head**
+- Root cause: thoracic kyphosis + shoulder internal rotation deficit + anterior capsule shortening
+- Mechanism: missing shoulder internal rotation → compensation into forward rounded position → external rotators placed in constant stretch, pecs adaptively shorten
+- Correction: T-spine extension smash (foam roller + LAX peanut); posterior shoulder smash (lat, posterior deltoid); fix thoracic spine FIRST, then shoulder capsule, then pec
+
+**Pattern 4 — Overextended Lumbar Spine (Anterior Pelvic Tilt)**
+- Root cause: glutes and abs "offline" = pelvis tips forward = pelvic floor turns off
+- Seen in: standing posture, overhead pressing, running, double-unders, pullup setups
+- Correction: bracing sequence — squeeze glutes first (sets pelvis), then brace abs (locks it); couch mobilization for anterior hip; this is a motor-control issue first, mobility issue second
+
+**Pattern 5 — Anterior Ankle Impingement (Pinching During Dorsiflexion)**
+- Root cause: talus resting at front of joint capsule from chronic anterior position
+- Seen in: squat bottom, calf stretches, any deep dorsiflexion requirement
+- Mechanism: same as anterior hip impingement but at the ankle
+- Correction: banded heel cord with posterior distraction — pulls talus back, creates space at front of joint. Ball whack around ankle bones to restore sliding surfaces first.
+
+**Pattern 6 — Low Back Pain After Training**
+- Root cause: spinal faults during repeated loading (rounded back deadlifts, overextended squats); pain is a LAGGING indicator
+- The tissue damage occurred during training; pain appears at rest when movement signal stops masking it
+- Correction: address motor-control (bracing sequence) before any mobilization. Then: t-spine smash, glute/hip capsule work, psoas/trunk area mobilization
+
+**Pattern 7 — Elbows Flaring / Shoulder Instability During Press**
+- Root cause: insufficient torque in shoulder (arms not externally rotated)
+- Seen in: pushup, bench press, ring dip, overhead press
+- Critical distinction: screwing hands into ground CREATES external rotation without physically turning hands outward. Physically turning hands out STEALS torque capacity. These are opposite effects.
+- On rings: turn rings out so thumbs point away from body (right thumb at 1 o'clock, left at 11 o'clock). Without this, torque cannot be created on rings.
+
+**Pattern 8 — Loss of Position at End of Long Training Sessions**
+- Root cause: strength is adequate for Category 1 movements but motor-control breaks down under fatigue (Category 2/3 exposure)
+- Mechanism: athletes can hide mobility restrictions behind slow, controlled Category 1 movements; fatigue removes that buffer
+- Correction: Category 2 and 3 training that requires spontaneous arrival in stable position; specifically target the movement patterns that degrade first under fatigue
+
+---
+
+### 15. Key Distinctions — What This Book Adds vs. Common Knowledge
+
+| Common Belief | Starrett's Correction |
+|---|---|
+| Stretch tight hamstrings | Organize spine in braced-neutral first; ROM may improve 50% without touching hamstrings |
+| Static stretching improves flexibility | Static stretching addresses only muscle dynamics (poorly), ignores joint capsule and sliding surface |
+| Core strength = planks and crunches | Core function = bracing sequence executed under load across ALL movements, 20% tension minimum |
+| Pain = where the problem is | Pain is a lagging indicator; restriction is upstream/downstream of the painful site |
+| Foam rolling is a warm-up | Mindless rolling does nothing; must create intentional extension/compression forces with purposeful pauses on tight tissue |
+| Stretching before training prevents injury | Position and movement understanding prevents injury; mobility addresses specific position deficit, not general flexibility |
+| Knee pain = knee problem | Knee pain = upstream (quad/hip) or downstream (calf/ankle) restriction pulling on the joint |
+| Voodoo/compression bands are gimmicks | Compression addresses all 3 mobility systems simultaneously; also clears acute joint swelling by pushing it into lymphatic system |
+| Arch collapse = weak foot | Arch collapse = low-torque environment = hip external rotation failure = a whole-system problem |
+| You can fix bad position mid-movement | You cannot turn a bad position into a good position once in motion — the tunnel closes |
+
+---
+
+### 16. Equipment Minimum for Implementing This System
+
+- **3 lacrosse balls** — 1 for acute smashing on smaller areas, 2 taped together as "LAX peanut" for t-spine work (most essential tool)
+- **Foam roller** — global extension work (thoracic spine), calf smash baseline, shoulder smash
+- **Monster resistance bands** (multiple resistance levels) — joint distraction (hip, ankle, shoulder), banded mobilizations, oscillation
+- **Voodoo floss bands** — compression mobilization for joints and acute swelling (bicycle inner tube cut in half works as budget substitute)
+- **Barbell or rolling pin** — acute calf, shin, and tissue smashing for high-load athletes
+- **Box or couch** — couch mobilization setup; 12-18 inch height works for most athletes
+
+---
+
+*Source: Starrett, K. & Cordoza, G. (2013). Becoming a Supple Leopard: The Ultimate Guide to Resolving Pain, Preventing Injury, and Optimizing Athletic Performance. Victory Belt Publishing. 937 pp.*  
+*Section appended: April 2026. Direct extraction from full PDF — 937 pages analyzed.*
