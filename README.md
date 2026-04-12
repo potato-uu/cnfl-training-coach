@@ -1,32 +1,65 @@
-# CNFL Training Coach
+<div align="center">
 
-**AI体能训练教练 — 专为中国CNFL业余橄榄球联盟设计**
+# cnfl-training-coach
 
-基于顶级运动科学家知识蒸馏的体能诊断系统。输入你的数据，获得个性化训练计划和康复方案。
+「练了三年，还是跑不快——除非你把科学装进 AI。」
+
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#) [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet)](#) [![skills.sh Compatible](https://img.shields.io/badge/skills.sh-Compatible-brightgreen)](#) [![CNFL](https://img.shields.io/badge/CNFL-橄榄球-FF3C00)](#)
+
+**把顶级运动科学家的训练体系蒸馏成 AI 教练——不是翻译课本，是把底层逻辑装进 AI。**
+
+打开 Claude，输入你的数据，就能按运动科学框架帮你诊断问题、生成周计划、处理伤病。
+
+[效果示例](#效果示例) · [安装](#安装) · [使用](#使用) · [知识库](#知识库)
+
+</div>
 
 ---
 
-## 功能
+## 效果示例
 
-- **力量诊断** — 后链不足、单侧失衡、力速转化缺陷检测
-- **速度分析** — 40码/10码/5-10-5 分析 + Sprint mechanics
-- **训练计划生成** — 按赛季阶段（季前/赛季/休赛期）定制周计划
-- **增强式训练** — 基于 RSI / SSC 的 Plyometrics 周期
-- **运动康复** — 6大类常见伤病（脚踝/腘绳肌/膝盖/腰背/肩膀/脑震荡）评估与分期康复
-- **锋线专项** — OL/DL专项训练模板
+输入体测数据之后：
 
-## 知识库来源
+```
+用户    › WR，76kg，3年训练，后蹲140，40码5.1秒，右脚踝崴过
 
-| 分类 | 专家/资源 |
-|------|----------|
-| 速度/弹性 | Joel Smith (Just Fly Sports) |
-| 周期化/三相训练 | Cal Dietz (Triphasic Training) |
-| 力量&爆发力 | Garage Strength + Overtime Athletes |
-| 脊柱/腰背 | Stuart McGill (Back Mechanic) |
-| 动作评估 | Gray Cook (FMS / Athletic Body in Balance) |
-| 运动表现 | Kelly Starrett (Becoming a Supple Leopard) |
-| 肩膀/康复 | Mike Reinold |
-| 锋线专项 | CNFL 内部训练文件 |
+教练   › 诊断完成。你的问题不是力量不够——是力量没有转化成速度。
+
+        后蹲 140kg = 1.84 倍体重，属于力量主导型运动员。
+        但 40 码 5.1 秒说明弹性/反应力严重滞后于力量水平。
+
+        根本问题：你的 SSC（牵张-缩短周期）太慢，
+        脚踝在地面接触时没有弹性——力量没传出去，全靠肌肉硬撑。
+
+        ── 赛季前 50 天方案 ──
+        优先级 1：Spring Ankle 系统（每日，不可省）
+        优先级 2：French Contrast 复合训练（每周 2 次）
+        优先级 3：Flying Sprints 30m（每周 2 次）
+        暂停：最大力量训练（赛前不加重量，加速度）
+```
+
+遇到伤病之后：
+
+```
+用户    › 脚踝崴了，副韧带拉伤，现在第 5 天，还肿着
+
+教练   › 副韧带拉伤评估：
+        当前阶段：亚急性期（3-14天），保护性负重阶段
+
+        ── 现在可以做 ──
+        · 等长收缩：脚踝 4 方向各 10 秒 × 3 组（不引发疼痛）
+        · 非负重上肢训练正常进行
+        · 坐姿直腿抬高保持股四头肌激活
+
+        ── 禁止 ──
+        · 任何跑动、跳跃、变向
+        · 用力背屈（会牵拉韧带）
+
+        ── 进入第二阶段的标准 ──
+        单腿站立 > 10 秒无疼痛，肿胀消退 > 70%
+
+        ⚠️ 以上为训练指导参考，不构成医疗诊断。
+```
 
 ---
 
@@ -38,36 +71,52 @@
 git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl-training-coach
 ```
 
-安装后，在 Claude Code 中输入训练相关关键词（如"生成我的训练计划"、"我的40码是5.1秒"、"脚踝崴伤了"）即自动触发。
+安装后重启 Claude Code。输入"生成我的训练计划"、"我崴脚了"、"40码怎么提升"等触发词即自动激活。
 
-### 其他 AI Agent / LLM
+### 其他 AI 工具
 
-将 `SKILL.md` 内容复制粘贴为系统提示词（System Prompt），可用于：
-- **OpenClaw** — 直接作为 Agent system prompt
-- **Cursor / Windsurf** — 粘贴为 Project Rules
-- **ChatGPT / Gemini** — 粘贴为 Custom Instructions
-- **任意 LLM API** — 作为 `system` message 传入
+将 `SKILL.md` 内容粘贴为系统提示词：
+
+| 工具 | 操作 |
+|------|------|
+| OpenClaw | 作为 Agent system prompt 注入 |
+| Cursor / Windsurf | 粘贴为 Project Rules |
+| ChatGPT / Gemini | 粘贴为 Custom Instructions |
+| 任意 LLM API | 作为 `system` message 传入 |
 
 ---
 
 ## 使用
 
-输入你的数据，AI 会自动诊断并生成方案：
-
 ```
-位置: WR
-体重: 76kg，身高: 175cm
-训练年限: 3年，训练频次: 5天/周
-设备: 杠铃/哑铃/跳箱/阻力带
+位置: WR / QB / OL / DB / LB / ...
+体重: __kg，身高: __cm
+训练年限: __年，训练频次: __天/周
+设备: 杠铃 / 哑铃 / 跳箱 / 阻力带 / ...
 
-力量: 后蹲140 / 前蹲120 / 高翻110 / RDL 55 / 单腿RDL 25
-上肢: 卧推90 / 负重引体+20
-速度: 40码5.1 / 10码1.85 / 5-10-5 5.2
-跳跃: 垂直跳70cm / 立定跳远2.85m
+力量: 后蹲__ / 前蹲__ / 高翻__ / RDL__ / 单腿RDL__
+上肢: 卧推__ / 引体__
+速度: 40码__ / 10码__ / 5-10-5__
+跳跃: 垂直跳__cm / 立定跳远__m
 
-伤病: 右脚踝副韧带拉伤（2周前）
-赛季: 2026-06-01
+伤病: （如有）
+赛季开始: （日期）
 ```
+
+---
+
+## 知识库
+
+| 模块 | 来源 | 核心内容 |
+|------|------|----------|
+| 速度 & 弹性 | Joel Smith / Just Fly Sports | SSC / RSI / 脚踝刚度 / Sprint mechanics |
+| 周期化 | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
+| 力量爆发力 | Garage Strength + Overtime Athletes | 位置专项 / 增强式训练周期 |
+| 脊柱康复 | Stuart McGill / Back Mechanic（书） | Big 3 / 疼痛分类 / 自评流程 |
+| 动作评估 | Gray Cook / Athletic Body in Balance（书） | FMS 7 测试 / 关节序列 / 纠正层级 |
+| 运动表现 | Kelly Starrett / Becoming a Supple Leopard（书） | 扭矩定律 / 组织松动 / 动作标准 |
+| 肩膀康复 | Mike Reinold | 投手十项 / 肩胛骨协议 / 复出六步 |
+| 锋线专项 | CNFL 内部训练文件 | OL/DL 5 天分化方案 |
 
 ---
 
@@ -81,18 +130,18 @@ cnfl-training-coach/
     ├── knowledge-cal-dietz.md        # Cal Dietz 知识蒸馏
     ├── knowledge-joel-smith.md       # Joel Smith 知识蒸馏
     ├── knowledge-garage-strength-overtime.md
-    ├── knowledge-rehab-experts.md    # 康复专家知识（McGill/Starrett/Cook/Reinold）
-    ├── knowledge-sports-medicine.md  # 运动医学分伤病类协议
+    ├── knowledge-rehab-experts.md    # 康复专家 (McGill / Starrett / Cook / Reinold)
+    ├── knowledge-sports-medicine.md  # 分伤病类康复协议
     ├── knowledge-stan-protocols.md   # 个性化缺陷修复协议（示例）
     └── knowledge-lineman-training.md # 锋线专项训练计划
 ```
 
 ---
 
-## 免责声明
+<div align="center">
 
-本 Skill 提供的所有建议仅供训练参考，**不构成医疗诊断**。如有伤病请及时就医或咨询物理治疗师。
+⚠️ 本 Skill 提供训练参考，不构成医疗诊断。伤病请及时就医。
 
----
+Made for CNFL 🏈 · potato-uu
 
-*Made for CNFL 🏈 by potato-uu*
+</div>
