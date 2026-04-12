@@ -8,7 +8,7 @@
 
 **把顶级运动科学家的训练体系蒸馏成 AI 教练——不是翻译课本，是把底层逻辑装进 AI。**
 
-打开 Claude，输入你的数据，就能按运动科学框架帮你诊断问题、生成周计划、处理伤病。
+打开 AI，输入你的数据，就能按运动科学框架帮你诊断问题、生成周计划、处理伤病。
 
 [效果示例](#效果示例) · [安装](#安装) · [使用](#使用) · [知识库](#知识库)
 
@@ -73,6 +73,20 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 
 安装后重启 Claude Code。输入"生成我的训练计划"、"我崴脚了"、"40码怎么提升"等触发词即自动激活。
 
+### 直接粘贴给任意 AI（无需安装）
+
+复制 [SKILL.md 原始内容](https://raw.githubusercontent.com/potato-uu/cnfl-training-coach/main/SKILL.md)，粘贴到对话开头即可：
+
+```
+[粘贴 SKILL.md 全文]
+
+---
+以上是你的角色设定，现在开始。我的信息：
+位置: WR，体重: 76kg ...
+```
+
+适用于豆包、DeepSeek、ChatGPT、Kimi 等任意对话 AI。
+
 ### 其他 AI 工具
 
 将 `SKILL.md` 内容粘贴为系统提示词：
@@ -87,6 +101,8 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 ---
 
 ## 使用
+
+打开任意 AI（豆包 / DeepSeek / ChatGPT / Claude / Kimi），粘贴以下格式发送：
 
 ```
 位置: WR / QB / OL / DB / LB / ...
