@@ -129,6 +129,7 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 垂直跳专项 | Kelly Baggett / Vertical Jump Bible（书） | 慢SSC vs 快SSC判断 / 深度跳量化标准 / 18+训练方案选择逻辑 |
 | 能量系统 | Joel Jamieson / Ultimate MMA Conditioning（书） | 三系统关键数字 / 有氧-乳酸-磷酸原训练方法 / RSA协议 / 全年周期化 |
 | 关节活动度 | Pavel Tsatsouline / Super Joints（书） | 17个日常关节流程 / 主动vs被动柔韧诊断 / 三阶段关节健康评估 |
+| 冲刺力学 | Charlie Francis / Speed Trap（书） | "Less Is More"哲学 / CNS疲劳管理 / 三期化周期 / 赛前10天减量协议 |
 | 周期化 | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
 | 力量爆发力 | Garage Strength + Overtime Athletes | 变向减速优先 / 爆发力周期化 |
 | 脊柱康复 | Stuart McGill / Back Mechanic（书） | Big 3 / 疼痛分类 / 自评流程 |
@@ -152,6 +153,10 @@ cnfl-training-coach/
     ├── knowledge-rehab-experts.md    # 康复专家 (McGill / Starrett / Cook / Reinold)
     ├── knowledge-sports-medicine.md  # 分伤病类康复协议
     ├── knowledge-stan-protocols.md   # 个性化缺陷修复协议（示例）
+    ├── knowledge-vertical-jump.md    # 垂直跳专项（Baggett）
+    ├── knowledge-energy-systems.md   # 能量系统（Jamieson）
+    ├── knowledge-mobility.md         # 关节活动度（Tsatsouline）
+    ├── knowledge-sprint-mechanics.md # 冲刺力学（Charlie Francis）
     └── knowledge-lineman-training.md # 锋线专项训练计划
 ```
 

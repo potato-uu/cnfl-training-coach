@@ -283,6 +283,7 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 - `references/knowledge-vertical-jump.md` — 垂直跳专项发展（Kelly Baggett，458行）：慢SSC vs 快SSC判断框架、自测反应跳协议、深度跳量化标准（≤40次/训练、接触时间<0.2秒）、18+训练方案选择逻辑
 - `references/knowledge-energy-systems.md` — 能量系统完整框架（Joel Jamieson，501行）：三系统关键数字、有氧/糖酵解/磷酸原训练方法各5-8种含具体方案、RSA四周渐进协议、全年周期化模板
 - `references/knowledge-mobility.md` — 关节活动度系统（Pavel Tsatsouline，384行）：主动柔韧性vs被动柔韧性差距诊断、Amosov日常关节流程17个动作、关节健康三阶段评估、髋/踝爆发力运动员专项序列
+- `references/knowledge-sprint-mechanics.md` — 冲刺力学与速度发展（Charlie Francis，Speed Trap，301行）："Less Is More"哲学、CNS疲劳管理、最大速度70m上限、三期化周期（12+8+5周）、赛前10天减量协议、节奏跑两极化定义、起跑力学
 
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**
