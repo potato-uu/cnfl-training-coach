@@ -288,6 +288,10 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 - `references/knowledge-cueing-science.md` — 提示语言科学（Nick Winkelman，Language of Coaching，327行）：外部vs内部焦点研究数据、OPTIMAL理论、Fitts&Posner三阶段、爆发力动作完整提示语表（垂直跳/水平跳/加速/绝对速度/切入）、表现vs学习区分
 - `references/knowledge-tendinopathy.md` — 肌腱病康复（Alfredson+Jill Cook，596行，12篇同行评审）：Alfredson离心协议（3×15×2次/天×12周）、Cook三阶段连续体模型、等长止痛方案、HSR协议、跟腱/髌腱/近端腘绳肌腱病运动专项分册
 - `references/knowledge-nutrition-recovery.md` — 营养与恢复计时（477行，Aragon/Galpin/Norton/Israetel）：每日蛋白1.6-2.2g/kg、亮氨酸2-3g/餐阈值、碳水计时、睡眠8-10h目标、HRV晨测协议、2%脱水→爆发力下降5-45%、冰浴时机、补充剂证据分级
+- `references/knowledge-cod-agility.md` — 变向力学与敏捷性（677行，Myszka 14篇/Sheppard&Young 13篇/Dodoo 12篇）：反应性敏捷vs预设动作、COD Deficit计算、末步力学、感知-动作耦合、约束主导训练、三大运动专项变向技术、ACL预防
+- `references/knowledge-ltad-youth.md` — 青少年长期运动发展（404行，Balyi/Lloyd&Oliver/Faigenbaum）：LTAD 7阶段、PHV敏感期窗口、青少年跳跃分层标准（4级接触量表）、早期专项化风险（3.5x伤病）、RAE相对年龄效应
+- `references/knowledge-upper-body-power.md` — 上肢爆发力与肩部表现（680行，Cressey 13篇/Baker 6篇/Reinold/Dietz）：肩胛力偶机制、髋肩分离动力链、拉推比2:1、Cressey卧推禁区原理、法式对比上肢版、GIRD评估、运动专项（QB/排球/篮球）
+- `references/knowledge-sport-psychology.md` — 运动心理与竞技表现（379行，Orlick/Rotella/Gould/Gervais）：IZOF个体最优唤醒区、焦虑重评科学、赛前准备流程模板、注意力控制、3步错误恢复协议、PETTLEP意象协议、赛季心理技能周期化
 
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**

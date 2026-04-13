@@ -134,6 +134,10 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 提示语言 | Nick Winkelman / The Language of Coaching（书） | 外部vs内部焦点 / OPTIMAL理论 / 爆发力动作提示表 / 表现vs学习区分 |
 | 肌腱病康复 | Alfredson + Jill Cook（12篇同行评审） | 离心协议 / 三阶段连续体 / 等长止痛 / 跟腱/髌腱/腘绳肌分册 |
 | 营养与恢复 | Aragon / Galpin / Norton / Israetel | 蛋白1.6-2.2g/kg / 亮氨酸阈值 / 睡眠8-10h / HRV晨测 / 恢复手段分级 |
+| 变向力学 | Myszka / Sheppard & Young / Dodoo（39篇来源） | 反应性敏捷 / COD Deficit / 末步力学 / 感知-动作耦合 / ACL预防 |
+| 青少年发展 | Balyi / Lloyd & Oliver / Faigenbaum | LTAD 7阶段 / PHV敏感期 / 青少年跳跃分层标准 / 早期专项化风险 |
+| 上肢爆发力 | Cressey / Baker / Reinold / Dietz（25篇来源） | 肩胛力偶 / 髋肩分离 / 拉推比2:1 / 法式对比上肢版 / QB/排球/篮球专项 |
+| 运动心理 | Orlick / Rotella / Gould / Gervais | IZOF / 赛前准备模板 / 焦虑重评 / 3步错误恢复 / PETTLEP意象 |
 | 周期化 | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
 | 力量爆发力 | Garage Strength + Overtime Athletes | 变向减速优先 / 爆发力周期化 |
 | 脊柱康复 | Stuart McGill / Back Mechanic（书） | Big 3 / 疼痛分类 / 自评流程 |
@@ -165,6 +169,10 @@ cnfl-training-coach/
     ├── knowledge-cueing-science.md   # 提示语言（Winkelman）
     ├── knowledge-tendinopathy.md     # 肌腱病康复（Alfredson + Cook）
     ├── knowledge-nutrition-recovery.md # 营养与恢复计时
+    ├── knowledge-cod-agility.md      # 变向力学（Myszka/Sheppard/Dodoo）
+    ├── knowledge-ltad-youth.md       # 青少年长期发展（Balyi/Lloyd&Oliver）
+    ├── knowledge-upper-body-power.md # 上肢爆发力（Cressey/Baker/Reinold）
+    ├── knowledge-sport-psychology.md # 运动心理（Orlick/Rotella/Gould）
     └── knowledge-lineman-training.md # 锋线专项训练计划
 ```
 
