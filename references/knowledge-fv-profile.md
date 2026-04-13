@@ -84,6 +84,8 @@ FVimb (%) = SFV_actual / SFV_opt × 100
 
 ### 2.1 方法 A：跳跃法（垂直 F-V Profile）
 
+> 垂直跳专项训练方法（SSC分类、深度跳、慢/快SSC判断）→ 见 `knowledge-vertical-jump.md`
+
 **原理：不同负重下的蹲跳（Squat Jump），用跳跃高度反推 F 和 V。**
 
 **最小测试方案（Samozino 2008 验证）：**
@@ -255,6 +257,8 @@ FVimb (%) = SFV_actual / SFV_opt × 100
 
 ### 3.5 冲刺专项的训练处方（水平 F-V 视角）
 
+> 冲刺力学细节（姿势、CNS疲劳管理、周期化）→ 见 `knowledge-sprint-mechanics.md`
+
 **水平 F₀ 不足（sprint force-deficit）≠ 垂直力量不足；处方不同。**
 
 - 水平力量缺陷（低 F₀_H）：
@@ -286,20 +290,6 @@ FVimb (%) = SFV_actual / SFV_opt × 100
 | CMJ / VJ 高度 | 纵向爆发力总量 | 垂直 F₀、V₀、FVimb 分解方向 |
 | 40 码 / 10 码冲刺时间 | 速度结果 | 水平 F₀、V₀、RF、DRF 机制解释 |
 | 体能测试综合 | 有氧/无氧能力 | F-V 曲线不受能量系统影响，独立评估 |
-
-**整合决策流程：**
-```
-VJ 低 → 看 FVimb
-  FVimb < 90%  → 力量缺陷 → 优先加重训练
-  FVimb > 110% → 速度缺陷 → 优先加弹跳/速度
-  FVimb 90–110% → 均衡 → 检查 Pmax，看能否整体提升
-
-10 码慢 + 40 码也慢 → 看水平 FVimb
-  低 F₀_H → 起跑推蹬力不足 → 重阻力雪橇 + 爆发力训练
-  低 V₀_H → 过渡最高速能力差 → 无阻力高速冲刺 + 技术
-
-深蹲强但 VJ 和 40 码平庸 → 速度缺陷概率极高
-```
 
 ---
 
@@ -435,50 +425,10 @@ VJ 低 → 看 FVimb
 
 ---
 
-### 4.8 快速参考决策卡
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    F-V PROFILE 快速决策流程                      │
-│                                                                  │
-│  测试 → 计算 FVimb (%) → 对照表 → 处方                           │
-│                                                                  │
-│  FVimb < 60%   │ 高度力量缺陷 │ → 最大力量优先（≥ 85% 1RM）      │
-│  FVimb 60–90%  │ 低度力量缺陷 │ → 力量 + 功率复合               │
-│  FVimb 90–110% │ 平衡         │ → 提升 Pmax，维持平衡            │
-│  FVimb 110–140%│ 低度速度缺陷 │ → 速度 + 爆发力复合             │
-│  FVimb > 140%  │ 高度速度缺陷 │ → 速度/弹跳优先（减重训量）      │
-│                                                                  │
-│  !! 同时检查 Pmax 绝对值 !!                                       │
-│  FVimb 平衡但 Pmax 低 → 两端都需要提升，均衡训练                   │
-│                                                                  │
-│  冲刺慢 + 低 F₀_H → 重阻力雪橇 + 起跑技术                        │
-│  冲刺慢 + 低 V₀_H → 无阻力高速冲刺 + 下坡                        │
-│  DRF 差（斜率陡）→ 冲刺技术 + 过渡速度专项训练                    │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
 ## 核心文献索引
 
-1. Samozino P et al. (2008). *A simple method for measuring force, velocity and power output during squat jump.* J Biomech.
-2. Samozino P et al. (2012). *Optimal force-velocity profile in ballistic movements — Altius: Citius or Fortius?* Med Sci Sports Exerc.
-3. Samozino P et al. (2013). *Force-velocity profile: imbalance determination and effect on lower limb ballistic performance.* Int J Sports Med.
-4. Samozino P et al. (2016). *A simple method for measuring power, force, velocity properties, and mechanical effectiveness in sprint running.* Scand J Med Sci Sports.
-5. Samozino P et al. (2021). *Optimal mechanical force-velocity profile for sprint acceleration performance.* Scand J Med Sci Sports.
-6. Morin JB & Samozino P (2016). *Interpreting power-force-velocity profiles for individualized and specific training.* Int J Sports Physiol Perform.
-7. Morin JB et al. (2011). *Technical ability of force application as a determinant factor of sprint performance.* Med Sci Sports Exerc.
-8. Morin JB et al. (2019). *Sprint mechanical variables in elite athletes: Are force-velocity profiles sport specific or individual?* PLOS ONE.
-9. Cross MR et al. (2017). *Force-velocity profiling in sled-resisted sprint running: optimal conditions for maximizing power.* Int J Sports Physiol Perform.
-10. Cross MR et al. (2020). *Individual sprint force-velocity profile adaptations to in-season assisted and resisted velocity-based training in professional rugby.* J Strength Cond Res.
-11. Cross MR et al. (2021). *Force-velocity profiling in athletes: reliability and agreement across methods.* PLOS ONE.
-12. Cross MR et al. (2018). *Power-force-velocity profiling of sprinting athletes: methodological and practical considerations when using timing gates.* J Strength Cond Res.
-13. Baker D (2001). *A series of studies on the training of high-intensity muscle power in rugby league players.* J Strength Cond Res.
-14. Baker D & Newton RU (2005). *Methods to reliably estimate the 1-RM upper body strength from the 1-RM lower body strength.* J Strength Cond Res.
-15. Delaney JA et al. (2018). *Sprint acceleration mechanical profiling for the NFL draft.* Sports Biomech.
-16. Janicijevic D et al. (2021). *Force-velocity profiles in collegiate American football players.* Int J Strength Cond.
-17. Jimenez-Reyes P et al. (2016). *Effectiveness of an individualized training based on force-velocity profiling during jumping.* Front Physiol.
-18. Jimenez-Reyes P et al. (2019). *Seasonal changes in the sprint acceleration force-velocity profile of elite male soccer players.* Int J Sports Physiol Perform.
-19. GymAware (2022). *Velocity zones and training prescription guidelines.* GymAware Technical Report.
-20. SimpliFaster (2019). *Force-velocity profiling in sprinting and jumping — interview with Dr. Pierre Samozino.* SimpliFaster.com.
+1. Samozino P et al. (2012). *Optimal force-velocity profile in ballistic movements — Altius: Citius or Fortius?* Med Sci Sports Exerc.
+2. Samozino P et al. (2016). *A simple method for measuring power, force, velocity properties, and mechanical effectiveness in sprint running.* Scand J Med Sci Sports.
+3. Morin JB & Samozino P (2016). *Interpreting power-force-velocity profiles for individualized and specific training.* Int J Sports Physiol Perform.
+4. Cross MR et al. (2020). *Individual sprint force-velocity profile adaptations to in-season assisted and resisted velocity-based training in professional rugby.* J Strength Cond Res.
+5. Jimenez-Reyes P et al. (2016). *Effectiveness of an individualized training based on force-velocity profiling during jumping.* Front Physiol.
