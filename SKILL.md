@@ -292,6 +292,7 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 - `references/knowledge-ltad-youth.md` — 青少年长期运动发展（404行，Balyi/Lloyd&Oliver/Faigenbaum）：LTAD 7阶段、PHV敏感期窗口、青少年跳跃分层标准（4级接触量表）、早期专项化风险（3.5x伤病）、RAE相对年龄效应
 - `references/knowledge-upper-body-power.md` — 上肢爆发力与肩部表现（680行，Cressey 13篇/Baker 6篇/Reinold/Dietz）：肩胛力偶机制、髋肩分离动力链、拉推比2:1、Cressey卧推禁区原理、法式对比上肢版、GIRD评估、运动专项（QB/排球/篮球）
 - `references/knowledge-sport-psychology.md` — 运动心理与竞技表现（379行，Orlick/Rotella/Gould/Gervais）：IZOF个体最优唤醒区、焦虑重评科学、赛前准备流程模板、注意力控制、3步错误恢复协议、PETTLEP意象协议、赛季心理技能周期化
+- `references/knowledge-fv-profile.md` — 力-速度曲线诊断（484行，Samozino/Morin/Cross/Baker，20篇来源）：FVimb五级分类阈值、跳跃法+冲刺法现场测试、力量缺陷vs速度缺陷诊断、训练处方决策表、运动专项基准值
 
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**

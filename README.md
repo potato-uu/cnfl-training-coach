@@ -138,6 +138,7 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 青少年发展 | Balyi / Lloyd & Oliver / Faigenbaum | LTAD 7阶段 / PHV敏感期 / 青少年跳跃分层标准 / 早期专项化风险 |
 | 上肢爆发力 | Cressey / Baker / Reinold / Dietz（25篇来源） | 肩胛力偶 / 髋肩分离 / 拉推比2:1 / 法式对比上肢版 / QB/排球/篮球专项 |
 | 运动心理 | Orlick / Rotella / Gould / Gervais | IZOF / 赛前准备模板 / 焦虑重评 / 3步错误恢复 / PETTLEP意象 |
+| 力-速度诊断 | Samozino / Morin / Cross / Baker（20篇来源） | FVimb计算 / 力量vs速度缺陷诊断 / 训练处方决策表 / 运动专项曲线基准 |
 | 周期化 | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
 | 力量爆发力 | Garage Strength + Overtime Athletes | 变向减速优先 / 爆发力周期化 |
 | 脊柱康复 | Stuart McGill / Back Mechanic（书） | Big 3 / 疼痛分类 / 自评流程 |
@@ -173,6 +174,7 @@ cnfl-training-coach/
     ├── knowledge-ltad-youth.md       # 青少年长期发展（Balyi/Lloyd&Oliver）
     ├── knowledge-upper-body-power.md # 上肢爆发力（Cressey/Baker/Reinold）
     ├── knowledge-sport-psychology.md # 运动心理（Orlick/Rotella/Gould）
+    ├── knowledge-fv-profile.md       # 力-速度曲线诊断（Samozino/Morin）
     └── knowledge-lineman-training.md # 锋线专项训练计划
 ```
 
