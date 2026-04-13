@@ -284,6 +284,10 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 - `references/knowledge-energy-systems.md` — 能量系统完整框架（Joel Jamieson，501行）：三系统关键数字、有氧/糖酵解/磷酸原训练方法各5-8种含具体方案、RSA四周渐进协议、全年周期化模板
 - `references/knowledge-mobility.md` — 关节活动度系统（Pavel Tsatsouline，384行）：主动柔韧性vs被动柔韧性差距诊断、Amosov日常关节流程17个动作、关节健康三阶段评估、髋/踝爆发力运动员专项序列
 - `references/knowledge-sprint-mechanics.md` — 冲刺力学与速度发展（Charlie Francis，Speed Trap，301行）："Less Is More"哲学、CNS疲劳管理、最大速度70m上限、三期化周期（12+8+5周）、赛前10天减量协议、节奏跑两极化定义、起跑力学
+- `references/knowledge-coordination-mechanics.md` — 协调力学（Frans Bosch，348行）：自由度问题、协调结构/Synergies、CPG中枢模式发生器、吸引子状态、扰动训练、肌腱弹性储能、为何深蹲不让你跑更快、差异化学习、冲刺/跳跃协调机制
+- `references/knowledge-cueing-science.md` — 提示语言科学（Nick Winkelman，Language of Coaching，327行）：外部vs内部焦点研究数据、OPTIMAL理论、Fitts&Posner三阶段、爆发力动作完整提示语表（垂直跳/水平跳/加速/绝对速度/切入）、表现vs学习区分
+- `references/knowledge-tendinopathy.md` — 肌腱病康复（Alfredson+Jill Cook，596行，12篇同行评审）：Alfredson离心协议（3×15×2次/天×12周）、Cook三阶段连续体模型、等长止痛方案、HSR协议、跟腱/髌腱/近端腘绳肌腱病运动专项分册
+- `references/knowledge-nutrition-recovery.md` — 营养与恢复计时（477行，Aragon/Galpin/Norton/Israetel）：每日蛋白1.6-2.2g/kg、亮氨酸2-3g/餐阈值、碳水计时、睡眠8-10h目标、HRV晨测协议、2%脱水→爆发力下降5-45%、冰浴时机、补充剂证据分级
 
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**

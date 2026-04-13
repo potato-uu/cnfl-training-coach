@@ -130,6 +130,10 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 能量系统 | Joel Jamieson / Ultimate MMA Conditioning（书） | 三系统关键数字 / 有氧-乳酸-磷酸原训练方法 / RSA协议 / 全年周期化 |
 | 关节活动度 | Pavel Tsatsouline / Super Joints（书） | 17个日常关节流程 / 主动vs被动柔韧诊断 / 三阶段关节健康评估 |
 | 冲刺力学 | Charlie Francis / Speed Trap（书） | "Less Is More"哲学 / CNS疲劳管理 / 三期化周期 / 赛前10天减量协议 |
+| 协调力学 | Frans Bosch / Strength Training and Coordination（书） | 自由度问题 / CPG / 吸引子状态 / 肌腱弹性储能 / 深蹲≠速度 |
+| 提示语言 | Nick Winkelman / The Language of Coaching（书） | 外部vs内部焦点 / OPTIMAL理论 / 爆发力动作提示表 / 表现vs学习区分 |
+| 肌腱病康复 | Alfredson + Jill Cook（12篇同行评审） | 离心协议 / 三阶段连续体 / 等长止痛 / 跟腱/髌腱/腘绳肌分册 |
+| 营养与恢复 | Aragon / Galpin / Norton / Israetel | 蛋白1.6-2.2g/kg / 亮氨酸阈值 / 睡眠8-10h / HRV晨测 / 恢复手段分级 |
 | 周期化 | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
 | 力量爆发力 | Garage Strength + Overtime Athletes | 变向减速优先 / 爆发力周期化 |
 | 脊柱康复 | Stuart McGill / Back Mechanic（书） | Big 3 / 疼痛分类 / 自评流程 |
@@ -157,6 +161,10 @@ cnfl-training-coach/
     ├── knowledge-energy-systems.md   # 能量系统（Jamieson）
     ├── knowledge-mobility.md         # 关节活动度（Tsatsouline）
     ├── knowledge-sprint-mechanics.md # 冲刺力学（Charlie Francis）
+    ├── knowledge-coordination-mechanics.md # 协调力学（Frans Bosch）
+    ├── knowledge-cueing-science.md   # 提示语言（Winkelman）
+    ├── knowledge-tendinopathy.md     # 肌腱病康复（Alfredson + Cook）
+    ├── knowledge-nutrition-recovery.md # 营养与恢复计时
     └── knowledge-lineman-training.md # 锋线专项训练计划
 ```
 
