@@ -1,6 +1,6 @@
 <div align="center">
 
-# cnfl-training-coach
+# Sports-training-coach
 
 「练了三年，还是跑不快——除非你把科学装进 AI。」
 
