@@ -4,11 +4,11 @@
 
 「练了三年，还是跑不快——除非你把科学装进 AI。」
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#) [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet)](#) [![skills.sh Compatible](https://img.shields.io/badge/skills.sh-Compatible-brightgreen)](#) [![CNFL](https://img.shields.io/badge/CNFL-橄榄球-FF3C00)](#)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#) [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet)](#) [![skills.sh Compatible](https://img.shields.io/badge/skills.sh-Compatible-brightgreen)](#) [![爆发力运动](https://img.shields.io/badge/橄榄球_篮球_排球_田径-FF3C00)](#)
 
-**把顶级运动科学家的训练体系蒸馏成 AI 教练——不是翻译课本，是把底层逻辑装进 AI。**
+**把顶级运动科学家的训练体系蒸馏成 AI 教练——覆盖美式橄榄球、篮球、排球、田径短跑等爆发力主导运动。**
 
-打开 AI，输入你的数据，就能按运动科学框架帮你诊断问题、生成周计划、处理伤病。
+打开 AI，输入你的运动项目和身体数据，就能按运动科学框架帮你诊断问题、生成周计划、处理伤病。
 
 [效果示例](#效果示例) · [安装](#安装) · [使用](#使用) · [知识库](#知识库)
 
@@ -126,13 +126,16 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 模块 | 来源 | 核心内容 |
 |------|------|----------|
 | 速度 & 弹性 | Joel Smith / Just Fly Sports | SSC / RSI / 脚踝刚度 / Sprint mechanics |
+| 垂直跳专项 | Kelly Baggett / Vertical Jump Bible（书） | 慢SSC vs 快SSC判断 / 深度跳量化标准 / 18+训练方案选择逻辑 |
+| 能量系统 | Joel Jamieson / Ultimate MMA Conditioning（书） | 三系统关键数字 / 有氧-乳酸-磷酸原训练方法 / RSA协议 / 全年周期化 |
+| 关节活动度 | Pavel Tsatsouline / Super Joints（书） | 17个日常关节流程 / 主动vs被动柔韧诊断 / 三阶段关节健康评估 |
 | 周期化 | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
-| 力量爆发力 | Garage Strength + Overtime Athletes | 位置专项 / 增强式训练周期 |
+| 力量爆发力 | Garage Strength + Overtime Athletes | 变向减速优先 / 爆发力周期化 |
 | 脊柱康复 | Stuart McGill / Back Mechanic（书） | Big 3 / 疼痛分类 / 自评流程 |
 | 动作评估 | Gray Cook / Athletic Body in Balance（书） | FMS 7 测试 / 关节序列 / 纠正层级 |
 | 运动表现 | Kelly Starrett / Becoming a Supple Leopard（书） | 扭矩定律 / 组织松动 / 动作标准 |
 | 肩膀康复 | Mike Reinold | 投手十项 / 肩胛骨协议 / 复出六步 |
-| 锋线专项 | CNFL 内部训练文件 | OL/DL 5 天分化方案 |
+| 锋线专项 | CNFL 内部训练文件 | OL/DL 5 天分化方案（橄榄球专用） |
 
 ---
 
