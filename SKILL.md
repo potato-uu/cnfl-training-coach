@@ -516,9 +516,10 @@ P3: [维持/次要]
 每日蛋白质目标: [X]g/天 ([y]g/kg)
 
 训练日:
-  训练前90min — 碳水[X]g + 蛋白[Y]g  (例: 米饭1碗 + 2个鸡蛋)
-  训练后立即  — 蛋白[Y]g + 碳水[X]g  (例: 乳清1勺 + 香蕉)
-  睡前        — 慢蛋白[Y]g            (例: 希腊酸奶200g)
+  [training_start - 90min] — 正餐 碳水[X]g + 蛋白[Y]g  (例: 米饭1碗 + 鸡胸100g)
+  [training_start - 30min] — 加餐可选 香蕉1根 + 咖啡（若使用咖啡因）
+  [training_end  + 15min] — ★黄金窗口 蛋白[Y]g + 碳水[X]g  (例: 乳清1勺 + 香蕉)
+  [sleep_time   - 45min] — 慢蛋白[Y]g  (例: 希腊酸奶200g / 牛奶250ml)
 
 推荐补剂 (A级证据): 肌酸3g/天 (长期)  |  咖啡因按需赛前用
 水合目标: 全天尿液淡黄色；训练每失重1kg补水1.5L
@@ -558,7 +559,7 @@ P3: [维持/次要]
 
 ### 8.2 伤病参考库
 
-读取 `references/knowledge-rehab.md`，按照以下分类给出回应：
+读取 `references/knowledge-rehab-experts.md`（McGill/Starrett/Cook/Reinold）和 `references/knowledge-sports-medicine.md`（分伤病类康复协议），按以下分类给出回应：
 
 | 伤病类型 | 关键词 | 快速判断 |
 |---------|-------|---------|

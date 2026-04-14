@@ -73,7 +73,7 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 
 安装后重启 Claude Code。输入"生成我的训练计划"、"我崴脚了"、"40码怎么提升"等触发词即自动激活。
 
-### 直接粘贴给任意 AI（无需安装）
+### 直接粘贴给 AI（支持长上下文的环境）
 
 复制 [SKILL.md 原始内容](https://raw.githubusercontent.com/potato-uu/cnfl-training-coach/main/SKILL.md)，粘贴到对话开头即可：
 
@@ -85,18 +85,18 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 位置: WR，体重: 76kg ...
 ```
 
-适用于豆包、DeepSeek、ChatGPT、Kimi 等任意对话 AI。
+### 各平台兼容性
 
-### 其他 AI 工具
-
-将 `SKILL.md` 内容粘贴为系统提示词：
-
-| 工具 | 操作 |
-|------|------|
-| OpenClaw | 作为 Agent system prompt 注入 |
-| Cursor / Windsurf | 粘贴为 Project Rules |
-| ChatGPT / Gemini | 粘贴为 Custom Instructions |
-| 任意 LLM API | 作为 `system` message 传入 |
+| 工具 | 支持情况 | 操作方式 |
+|------|----------|----------|
+| Claude Code | ✅ 完整支持 | 安装到 `~/.claude/skills/`，自动触发 |
+| OpenClaw Agent | ✅ 完整支持 | 作为 Agent system prompt 注入 |
+| DeepSeek / Kimi / 豆包 | ✅ 完整支持 | 粘贴 SKILL.md 全文到对话开头 |
+| 任意 LLM API | ✅ 完整支持 | 作为 `system` message 传入 |
+| Cursor / Windsurf | ✅ 完整支持 | 粘贴为 Project Rules / Global Rules |
+| ChatGPT Custom Instructions | ⚠️ **不兼容** | Custom Instructions 限 1500 字符，SKILL.md 约 46KB，无法直接粘贴 |
+| ChatGPT GPT / Project | ✅ 部分支持 | 创建 GPT 或 Project，将 SKILL.md 上传为知识文件 |
+| Gemini Custom Instructions | ⚠️ **不兼容** | 字符限制同样不足以容纳完整 SKILL.md |
 
 ---
 
@@ -105,9 +105,12 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 打开任意 AI（豆包 / DeepSeek / ChatGPT / Claude / Kimi），粘贴以下格式发送：
 
 ```
+姓名/代号: __
+年龄: __岁
 位置: WR / QB / OL / DB / LB / ...
 体重: __kg，身高: __cm
 训练年限: __年，训练频次: __天/周
+训练时间段: __:__–__:__（例如 18:30–21:00）
 设备: 杠铃 / 哑铃 / 跳箱 / 阻力带 / ...
 
 力量: 后蹲__ / 前蹲__ / 高翻__ / RDL__ / 单腿RDL__
