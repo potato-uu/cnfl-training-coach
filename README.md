@@ -178,7 +178,8 @@ cnfl-training-coach/
     ├── knowledge-upper-body-power.md # 上肢爆发力（Cressey/Baker/Reinold）
     ├── knowledge-sport-psychology.md # 运动心理（Orlick/Rotella/Gould）
     ├── knowledge-fv-profile.md       # 力-速度曲线诊断（Samozino/Morin）
-    └── knowledge-lineman-training.md # 锋线专项训练计划
+    ├── knowledge-lineman-training.md # 锋线专项训练计划
+    └── knowledge-joe-kenn-tier.md    # Tier System 美式橄榄球周期化（Joe Kenn）
 ```
 
 ---

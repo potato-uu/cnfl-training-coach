@@ -317,6 +317,8 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**
+- `references/knowledge-joe-kenn-tier.md` — Tier System 完整周期化（Joe Kenn，488行）：T/L/U三类别旋转逻辑、Major/Supplemental/Assistance动作分级、Cluster Sets强度波动、赛季五阶段划分、4周块组次配比（3×8→4×6→5×5→6×3）、奥举在全身Tier的核心位置、赛季内2×/周维持方案、BIG/BIG SKILL/SKILL位置差异
+- `references/knowledge-david-ncaa-qb.md` — 大衛David NCAA D1 体系：**Bompa 经典52周年度周期**（13中周期×4周，3加1减）+ 一周四训模板（88%/68%/86%/71% 四日强度分布）+ Week11 实际 PAP 处方 + 脚踝三柱（Cal Dietz）+ Phase 1 W1-2 入门变体；**用户提及"NCAA / David / 大衛 / 52周 / 一周四训 / Olympic 举 / 脚踝三柱"时调用；不适用训练年限<2年用户**
 
 根据 Step 3 的优先级和 Step 4 的分配，组装周计划。
 
