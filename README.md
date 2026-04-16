@@ -162,10 +162,14 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 
 ```
 cnfl-training-coach/
-├── SKILL.md                          # 主 Skill 文件（AI 读取）
+├── SKILL.md                          # 主 Skill 文件（AI 读取，运行时诊断行为）
+├── CONTRIBUTING.md                   # 体系扩展与贡献指南（自更新协议/新增运动/回归测试）
 ├── LICENSE                           # MIT + 内容来源声明
 ├── README.md                         # 本文件
 ├── .gitignore                        # 屏蔽 profiles/ 个人档案
+├── evals/                            # 黄金回归测试
+│   ├── README.md                     # 运行方式
+│   └── cases.md                      # 10 个黄金案例
 ├── profiles/                         # 本地私有档案（.gitignore，不进 repo）
 │   └── README.md                     # 模板：knowledge-[athlete-id]-protocols.md
 └── references/
