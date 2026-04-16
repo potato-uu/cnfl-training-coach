@@ -1,0 +1,6 @@
+# Local private profiles — never commit personal athlete data
+profiles/*
+!profiles/README.md
+
+# macOS
+.DS_Store

@@ -224,7 +224,7 @@ git clone https://github.com/[your-repo]/cnfl-training-coach ~/.claude/skills/cn
 
 | 关键词 | 标记 | 动作禁忌 |
 |---|---|---|
-| 脚踝/ankle/扭伤/崴脚 | `injury_flag: ankle` | 限制深度跳、单腿落地需从双腿过渡 |
+| 脚踝/ankle/扭伤/崴脚 | `injury_flag: ankle` | 限制深度跳、单腿落地需从双腿过渡、禁止 Power Clean/Hang Clean 等需踝背屈接铃的奥举动作（踝完全无痛后再恢复） |
 | 膝盖/knee/ACL/半月板 | `injury_flag: knee` | 限制深蹲深度、避免开链膝伸展 |
 | 腘绳肌/hamstring/拉伤 | `injury_flag: hamstring` | 限制Nordic Curl离心负荷、冲刺降量 |
 | 肩膀/shoulder/脱臼 | `injury_flag: shoulder` | 限制过头推举、卧推使用中握距 |
@@ -300,7 +300,7 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 
 **爆发力专项模块（爆发力运动通用）**
 - `references/knowledge-garage-strength-overtime.md` — 变向减速优先、爆发力周期化（Garage Strength + Overtime Athletes）
-- `references/knowledge-stan-protocols.md` — 个人缺陷修复协议：Spring Ankle三级系统、后链Triphasic九周方案、单侧力量12周方案；同类诊断结果时优先参照
+- `profiles/knowledge-[athlete-id]-protocols.md` — **运动员私有协议**（本地 `.gitignore` 目录，每用户自建，不进 repo）：个人缺陷修复处方，同类诊断结果时优先参照。模板参见 `profiles/README.md`
 - `references/knowledge-vertical-jump.md` — 垂直跳专项发展（Kelly Baggett，458行）：慢SSC vs 快SSC判断框架、自测反应跳协议、深度跳量化标准（≤40次/训练、接触时间<0.2秒）、18+训练方案选择逻辑
 - `references/knowledge-energy-systems.md` — 能量系统完整框架（Joel Jamieson，501行）：三系统关键数字、有氧/糖酵解/磷酸原训练方法各5-8种含具体方案、RSA四周渐进协议、全年周期化模板
 - `references/knowledge-mobility.md` — 关节活动度系统（Pavel Tsatsouline，384行）：主动柔韧性vs被动柔韧性差距诊断、Amosov日常关节流程17个动作、关节健康三阶段评估、髋/踝爆发力运动员专项序列
@@ -315,10 +315,17 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 - `references/knowledge-sport-psychology.md` — 运动心理与竞技表现（379行，Orlick/Rotella/Gould/Gervais）：IZOF个体最优唤醒区、焦虑重评科学、赛前准备流程模板、注意力控制、3步错误恢复协议、PETTLEP意象协议、赛季心理技能周期化
 - `references/knowledge-fv-profile.md` — 力-速度曲线诊断（484行，Samozino/Morin/Cross/Baker，20篇来源）：FVimb五级分类阈值、跳跃法+冲刺法现场测试、力量缺陷vs速度缺陷诊断、训练处方决策表、运动专项基准值
 
+**力量训练经典模块（所有运动通用）**
+- `references/knowledge-bompa-periodization.md` — Bompa 年度周期化经典：宏观/中观/微观分层、3+1 减载逻辑、赛季五阶段（准备/赛前/赛季/过渡）、强度波动模板；长周期规划必读
+- `references/knowledge-supertraining.md` — Verkhoshansky《Supertraining》：震动法/深度跳强度分级（40-60 常规，精英 60-80 仅短期）、SSC 理论、CNS 疲劳累积模型；进阶增强式方案依据
+- `references/knowledge-triphasic-book.md` — Cal Dietz《Triphasic Training》原书：离心/等长/向心三相节奏、法式对比全集、12周 offseason 块组模板
+- `references/knowledge-zatsiorsky.md` — Zatsiorsky《Science & Practice of Strength Training》：ME/RE/DE 三方法强度区间（ME ≥85% / RE 70-80% / DE 50-70%）、力量-肥大-速度转化原理、组间休息科学
+
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**
 - `references/knowledge-joe-kenn-tier.md` — Tier System 完整周期化（Joe Kenn，488行）：T/L/U三类别旋转逻辑、Major/Supplemental/Assistance动作分级、Cluster Sets强度波动、赛季五阶段划分、4周块组次配比（3×8→4×6→5×5→6×3）、奥举在全身Tier的核心位置、赛季内2×/周维持方案、BIG/BIG SKILL/SKILL位置差异
 - `references/knowledge-david-ncaa-qb.md` — 大衛David NCAA D1 体系：**Bompa 经典52周年度周期**（13中周期×4周，3加1减）+ 一周四训模板（88%/68%/86%/71% 四日强度分布）+ Week11 实际 PAP 处方 + 脚踝三柱（Cal Dietz）+ Phase 1 W1-2 入门变体；**用户提及"NCAA / David / 大衛 / 52周 / 一周四训 / Olympic 举 / 脚踝三柱"时调用；不适用训练年限<2年用户**
+- `references/knowledge-nsca-football.md` — NSCA《Football Conditioning》：位置专项力量/速度/变向标准、赛季内维持方案、测试协议（40码/垂跳/卧推次数）
 
 根据 Step 3 的优先级和 Step 4 的分配，组装周计划。
 
@@ -406,7 +413,7 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 **RSI改善处方（快速SSC，接触时间<250ms）：**
 - Pogo跳：3×15步，强调最短接触时间（低量起步）
 - 低栏架连续跳：4×5跳（栏高15-30cm），比箱跳更强调弹性
-- 深度跳：每次训练≤30次接触，30-45cm高度，目标接触时间<250ms
+- 深度跳接触量分层：业余/伤愈期 ≤30 次/训练；进阶运动员（训练年限≥3年、无伤）40-60 次（Verkhoshansky）；精英专项期短期可 60-80 次但需教练监控。高度 30-45cm，目标接触时间 <250ms
 
 **注意：** RSI训练必须在状态最好时（训练前段）执行，疲劳状态下做无效且增加伤险。
 
