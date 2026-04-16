@@ -25,7 +25,7 @@ description: >
 GitHub地址（队友安装用）：
 ```bash
 # 安装到Claude Code
-git clone https://github.com/[your-repo]/cnfl-training-coach ~/.claude/skills/cnfl-training-coach
+git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl-training-coach
 ```
 
 ---
@@ -348,6 +348,15 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 - `references/knowledge-supertraining.md` — Verkhoshansky《Supertraining》：震动法/深度跳强度分级（40-60 常规，精英 60-80 仅短期）、SSC 理论、CNS 疲劳累积模型；进阶增强式方案依据
 - `references/knowledge-triphasic-book.md` — Cal Dietz《Triphasic Training》原书：离心/等长/向心三相节奏、法式对比全集、12周 offseason 块组模板
 - `references/knowledge-zatsiorsky.md` — Zatsiorsky《Science & Practice of Strength Training》：ME/RE/DE 三方法强度区间（ME ≥85% / RE 70-80% / DE 50-70%）、力量-肥大-速度转化原理、组间休息科学
+
+**篮球专项模块（仅篮球用户读取）**
+- `references/knowledge-basketball.md` — 篮球专项知识（401行）：位置需求矩阵（PG/SG/SF/PF/C）、篮球COD五大动作模式、垂直跳站立vs助跑差异、赛季内最低有效剂量、踝/ACL/髌腱预防、28m短场RSA体能
+
+**排球专项模块（仅排球用户读取）**
+- `references/knowledge-volleyball.md` — 排球专项知识（413行）：位置需求（主攻/副攻/二传/自由人）、三步助跑跳跃力学、肩部扣球量管理（训练日≤80次/周≤400次）、髌腱病预防、Rally能量系统分析
+
+**田径专项模块（仅田径用户读取）**
+- `references/knowledge-track-field.md` — 田径短跑/跳跃专项知识（320行）：加速阶段起跑架参数、最高速GCT分层、速度耐力五级强度、跳远助跑一致性、单峰/双峰周期化、业余常见错误
 
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**

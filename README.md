@@ -14,6 +14,8 @@
 
 </div>
 
+**English:** An AI coaching skill for explosive-sport athletes (American football, basketball, volleyball, track & field sprints/jumps). Feed it your test data and it returns a diagnosis → periodized weekly plan → injury management pipeline. Works with Claude Code, any LLM API, Cursor, or paste-into-chat.
+
 ---
 
 ## 效果示例
@@ -137,6 +139,9 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 提示语言 | Nick Winkelman / The Language of Coaching（书） | 外部vs内部焦点 / OPTIMAL理论 / 爆发力动作提示表 / 表现vs学习区分 |
 | 肌腱病康复 | Alfredson + Jill Cook（12篇同行评审） | 离心协议 / 三阶段连续体 / 等长止痛 / 跟腱/髌腱/腘绳肌分册 |
 | 营养与恢复 | Aragon / Galpin / Norton / Israetel | 蛋白1.6-2.2g/kg / 亮氨酸阈值 / 睡眠8-10h / HRV晨测 / 恢复手段分级 |
+| 篮球专项 | NSCA / Ben Shear / Alan Stein / PJF Performance | 位置需求矩阵 / COD五大模式 / 垂直跳专项化 / 赛季内负荷管理 / 踝ACL髌腱预防 |
+| 排球专项 | Sheppard&Newton / Sattler / Marques / FIVB | 位置需求 / 三步助跑力学 / 肩部扣球量管理 / 髌腱预防 / Rally能量系统 |
+| 田径专项 | Dan Pfaff / Stuart McMillan / Boo Schexnayder / Ralph Mann / Tony Holler | 加速阶段训练 / 最高速力学 / 速度耐力 / 跳跃项目 / 周期化 |
 | 变向力学 | Myszka / Sheppard & Young / Dodoo（39篇来源） | 反应性敏捷 / COD Deficit / 末步力学 / 感知-动作耦合 / ACL预防 |
 | 青少年发展 | Balyi / Lloyd & Oliver / Faigenbaum | LTAD 7阶段 / PHV敏感期 / 青少年跳跃分层标准 / 早期专项化风险 |
 | 上肢爆发力 | Cressey / Baker / Reinold / Dietz（25篇来源） | 肩胛力偶 / 髋肩分离 / 拉推比2:1 / 法式对比上肢版 / QB/排球/篮球专项 |
@@ -174,6 +179,7 @@ cnfl-training-coach/
 │   └── README.md                     # 模板：knowledge-[athlete-id]-protocols.md
 └── references/
     ├── exercise-library.md                      # 动作库
+    ├── knowledge-basketball.md                      # 篮球专项
     ├── knowledge-bompa-periodization.md         # Bompa 线性周期化（书）
     ├── knowledge-cal-dietz.md                   # Cal Dietz Spring Ankle / Triphasic 蒸馏
     ├── knowledge-cod-agility.md                 # 变向力学（Myszka/Sheppard/Dodoo）
@@ -196,9 +202,11 @@ cnfl-training-coach/
     ├── knowledge-sprint-mechanics.md            # 冲刺力学（Charlie Francis）
     ├── knowledge-supertraining.md               # Supertraining（Verkhoshansky & Siff 书）
     ├── knowledge-tendinopathy.md                # 肌腱病康复（Alfredson + Cook）
+    ├── knowledge-track-field.md                     # 田径专项
     ├── knowledge-triphasic-book.md              # Triphasic Training（Cal Dietz 原著）
     ├── knowledge-upper-body-power.md            # 上肢爆发力（Cressey/Baker/Reinold）
     ├── knowledge-vertical-jump.md               # 垂直跳专项（Baggett 书）
+    ├── knowledge-volleyball.md                      # 排球专项
     └── knowledge-zatsiorsky.md                  # 力量训练科学（Zatsiorsky & Kraemer 书）
 ```
 
