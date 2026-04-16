@@ -142,7 +142,13 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 上肢爆发力 | Cressey / Baker / Reinold / Dietz（25篇来源） | 肩胛力偶 / 髋肩分离 / 拉推比2:1 / 法式对比上肢版 / QB/排球/篮球专项 |
 | 运动心理 | Orlick / Rotella / Gould / Gervais | IZOF / 赛前准备模板 / 焦虑重评 / 3步错误恢复 / PETTLEP意象 |
 | 力-速度诊断 | Samozino / Morin / Cross / Baker（20篇来源） | FVimb计算 / 力量vs速度缺陷诊断 / 训练处方决策表 / 运动专项曲线基准 |
-| 周期化 | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
+| 周期化（线性） | Bompa / Periodization Theory and Methodology（书） | 宏观/中观/微观周期 / 运动素质金字塔 / 年度双峰计划 |
+| 周期化（非线性） | Verkhoshansky & Siff / Supertraining（书） | 系列化/块化训练 / 联合效应 / 延迟转化效应 |
+| 周期化（三相） | Cal Dietz / Triphasic Training（书） | 三相训练 / French Contrast / 训练残留 |
+| 力量原理 | Zatsiorsky & Kraemer / Science and Practice of Strength Training（书） | 最大努力/重复努力/动态努力法 / 力-速度曲线 / 训练周期化 |
+| 力量科学（综合） | NSCA / Essentials of Strength & Conditioning（书） | 生理学基础 / 测试评估 / 分期模板 / 球类运动专项 |
+| Tier System | Joe Kenn / Coach's Strength Training Playbook（书） | 美式橄榄球周期化 / 3天分化 / 爆发-力量-辅助 |
+| 位置专项 | David（NCAA QB）教学视频 | 四分卫专项力学 / 训练 focus / 实战案例 |
 | 力量爆发力 | Garage Strength + Overtime Athletes | 变向减速优先 / 爆发力周期化 |
 | 脊柱康复 | Stuart McGill / Back Mechanic（书） | Big 3 / 疼痛分类 / 自评流程 |
 | 动作评估 | Gray Cook / Athletic Body in Balance（书） | FMS 7 测试 / 关节序列 / 纠正层级 |
@@ -157,30 +163,42 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 ```
 cnfl-training-coach/
 ├── SKILL.md                          # 主 Skill 文件（AI 读取）
+├── LICENSE                           # MIT + 内容来源声明
+├── README.md                         # 本文件
+├── .gitignore                        # 屏蔽 profiles/ 个人档案
+├── profiles/                         # 本地私有档案（.gitignore，不进 repo）
+│   └── README.md                     # 模板：knowledge-[athlete-id]-protocols.md
 └── references/
-    ├── exercise-library.md           # 动作库
-    ├── knowledge-cal-dietz.md        # Cal Dietz 知识蒸馏
-    ├── knowledge-joel-smith.md       # Joel Smith 知识蒸馏
-    ├── knowledge-garage-strength-overtime.md
-    ├── knowledge-rehab-experts.md    # 康复专家 (McGill / Starrett / Cook / Reinold)
-    ├── knowledge-sports-medicine.md  # 分伤病类康复协议
-    ├── knowledge-stan-protocols.md   # 个性化缺陷修复协议（示例）
-    ├── knowledge-vertical-jump.md    # 垂直跳专项（Baggett）
-    ├── knowledge-energy-systems.md   # 能量系统（Jamieson）
-    ├── knowledge-mobility.md         # 关节活动度（Tsatsouline）
-    ├── knowledge-sprint-mechanics.md # 冲刺力学（Charlie Francis）
-    ├── knowledge-coordination-mechanics.md # 协调力学（Frans Bosch）
-    ├── knowledge-cueing-science.md   # 提示语言（Winkelman）
-    ├── knowledge-tendinopathy.md     # 肌腱病康复（Alfredson + Cook）
-    ├── knowledge-nutrition-recovery.md # 营养与恢复计时
-    ├── knowledge-cod-agility.md      # 变向力学（Myszka/Sheppard/Dodoo）
-    ├── knowledge-ltad-youth.md       # 青少年长期发展（Balyi/Lloyd&Oliver）
-    ├── knowledge-upper-body-power.md # 上肢爆发力（Cressey/Baker/Reinold）
-    ├── knowledge-sport-psychology.md # 运动心理（Orlick/Rotella/Gould）
-    ├── knowledge-fv-profile.md       # 力-速度曲线诊断（Samozino/Morin）
-    ├── knowledge-lineman-training.md # 锋线专项训练计划
-    └── knowledge-joe-kenn-tier.md    # Tier System 美式橄榄球周期化（Joe Kenn）
+    ├── exercise-library.md                      # 动作库
+    ├── knowledge-bompa-periodization.md         # Bompa 线性周期化（书）
+    ├── knowledge-cal-dietz.md                   # Cal Dietz Spring Ankle / Triphasic 蒸馏
+    ├── knowledge-cod-agility.md                 # 变向力学（Myszka/Sheppard/Dodoo）
+    ├── knowledge-coordination-mechanics.md      # 协调力学（Frans Bosch）
+    ├── knowledge-cueing-science.md              # 提示语言（Winkelman）
+    ├── knowledge-david-ncaa-qb.md               # NCAA QB 专项训练（David 视频）
+    ├── knowledge-energy-systems.md              # 能量系统（Jamieson）
+    ├── knowledge-fv-profile.md                  # 力-速度曲线诊断（Samozino/Morin）
+    ├── knowledge-garage-strength-overtime.md    # 变向+爆发力周期化
+    ├── knowledge-joe-kenn-tier.md               # Tier System（Joe Kenn 书）
+    ├── knowledge-joel-smith.md                  # 速度+弹性（Just Fly Sports）
+    ├── knowledge-lineman-training.md            # 锋线专项 5 天分化
+    ├── knowledge-ltad-youth.md                  # 青少年长期发展（Balyi/Lloyd&Oliver）
+    ├── knowledge-mobility.md                    # 关节活动度（Tsatsouline）
+    ├── knowledge-nsca-football.md               # NSCA 橄榄球力量训练（书）
+    ├── knowledge-nutrition-recovery.md          # 营养与恢复计时
+    ├── knowledge-rehab-experts.md               # 康复专家（McGill/Starrett/Cook/Reinold）
+    ├── knowledge-sport-psychology.md            # 运动心理（Orlick/Rotella/Gould）
+    ├── knowledge-sports-medicine.md             # 分伤病类康复协议
+    ├── knowledge-sprint-mechanics.md            # 冲刺力学（Charlie Francis）
+    ├── knowledge-supertraining.md               # Supertraining（Verkhoshansky & Siff 书）
+    ├── knowledge-tendinopathy.md                # 肌腱病康复（Alfredson + Cook）
+    ├── knowledge-triphasic-book.md              # Triphasic Training（Cal Dietz 原著）
+    ├── knowledge-upper-body-power.md            # 上肢爆发力（Cressey/Baker/Reinold）
+    ├── knowledge-vertical-jump.md               # 垂直跳专项（Baggett 书）
+    └── knowledge-zatsiorsky.md                  # 力量训练科学（Zatsiorsky & Kraemer 书）
 ```
+
+**注：** `profiles/` 目录被 `.gitignore` 屏蔽。每位使用者在本地存放自己的 `knowledge-[athlete-id]-protocols.md`（个人缺陷修复处方 / 体重 / 1RM / 伤病史）。模板见 `profiles/README.md`。
 
 ---
 
