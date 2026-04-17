@@ -319,25 +319,33 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 
 ## Step 5: 训练方案生成
 
-### 5.0 周计划前置回溯（强制）
+### 5.0 周计划前置回溯（强制·五检索）
 
-**生成任何周计划/单次训练日之前，必须先执行以下检索**，否则跨周承诺会断链（已发生案例：W1 承诺"W2 起每日 10min 核心"，W2 生成时漏掉）：
+**生成任何周计划/单次训练日/日程变更/用户反馈响应之前，必须先执行五类检索**。缺一视为违规（Stan 亲定 2026-04-17，见 `coach-meta-errors` ID 50480ee3）：
 
 ```
-mp_search(query="训练 反思 承诺 {athlete_id}", wing="{athlete_id}-training", n=10)
-mp_search(query="上周 训练日志 感受", wing="{athlete_id}-training", n=5)
+mp_search(query="训练 反思 承诺 {athlete_id}", wing="{athlete_id}-training", room="w{N}-training-log", n=10)
+mp_search(query="bug 问题 修复 根因", wing="{athlete_id}-training", room="issue-log", n=10)
+mp_search(query="workflow 教训 meta error", wing="{athlete_id}-training", room="coach-meta-errors", n=10)
+mp_search(query="1RM 体重 伤病 校准", wing="{athlete_id}-training", room="profile-calibration", n=5)
+mp_search(query="换日 取消 补训", wing="{athlete_id}-training", room="schedule-change-log", n=5)
 ```
 
 检索结果必须在输出计划前明示：
 - **上周未完成项** → 本周补做
-- **上周 Stan 提出的反思/承诺** → 本周必须兑现
+- **上周用户提出的反思/承诺** → 本周必须兑现
 - **上周伤病或疲劳信号** → 本周减量或替代
+- **历史修复过的 bug** → 本周方案必须规避，不得复发
+- **最新 profile 数值** → 所有负重按最新 1RM 计算，不用旧值
+- **历史日程变更模式** → 识别高频变更日（如 Stan 周三常下雨）
 
 如果 Memory Palace 里没有 `{athlete_id}-training` wing，第一次生成时创建，并在当次训练结束后要求用户回报训练日志（`mp_store`）。
 
 **破坏性错误模式（不可接受）：**
 - 生成本周计划没读上周日志
+- 历史修复过的 bug（如 CNS 堆叠、俄转核心、Spring Ankle 省略）本周方案再次出现——说明没查 issue-log
 - 上周已承诺的细节（核心 10min、Spring Ankle L1、A3 具体负重）在本周被模糊化成"收尾"、"按需加"、"适量"
+- 用旧 1RM 计算本周负重（说明没查 profile-calibration）
 
 ---
 
@@ -579,6 +587,25 @@ mp_search(query="上周 训练日志 感受", wing="{athlete_id}-training", n=5)
 - Google Calendar MCP 未连接 → 在正文末尾输出"⚠️ 未推送日历（连接 Google Calendar MCP 后可自动推）"
 - Memory Palace MCP 未连接 → 提示用户手动记录
 - 不允许静默省略任一通道
+
+### 6.5 问题日志留痕（强制，任何修复/反馈动作触发）
+
+**除了 6.0 的周计划三通道交付，以下场景也必须 `mp_store` 留痕——否则下次同类问题会再犯（历史教训：2026-04-17 W2 Fri 三个 AI 缺陷修完没留痕，Stan 明确点出）。**
+
+执行顺序必须是：`mp_search 回看 → 修复 → mp_store 留痕 → 再报告完成`。颠倒或省略任何一步都是违规。
+
+| 触发场景 | mp_store 目标 | 内容必含 |
+|---|---|---|
+| 用户反馈"出问题/不对/为什么/有 bug/一直出问题" | `wing={athlete_id}-training, room=issue-log, hall=discoveries` | 原问题 + 根因 + 修复动作 + commit hash（如涉及代码）+ 用户原话引用 |
+| 日程变更（换日/取消/补训） | `wing={athlete_id}-training, room=schedule-change-log, hall=events` | 原计划 + 新计划 + 变更原因 + 新旧日历事件 ID |
+| Profile 数值校准（1RM、体重、伤病等） | `wing={athlete_id}-training, room=profile-calibration, hall=facts` | 旧值 → 新值 + 依据 + 下次校准触发条件 |
+| 自己发现的 workflow 失效（coach meta-error） | `wing={athlete_id}-training, room=coach-meta-errors, hall=advice` | 错误行为 + 根因 + 强制规则 + 教训 |
+| 伤病升级/新伤 | `wing={athlete_id}-training, room=injury-log, hall=events` | 部位 + 机制 + 严重度 + 当下处理 + 预计复出窗口 |
+
+**硬规则：**
+- 不允许"修完就报告完成"——报告前必须先存
+- 不允许用"下次再存"、"用户没要求存"做借口——自动触发，无须用户提醒
+- 存完后对用户明示："已 `mp_store` 到 `{wing}/{room}/{hall}` (ID: xxxxxxx)"——形成闭环验证
 
 ---
 
@@ -1112,3 +1139,5 @@ v[N-2] ([date]): ...
 10. **永远不要在核心训练中排俄转 / V 起 / 负重仰卧起坐** — McGill 明确禁忌，脊柱屈曲+旋转=椎间盘损伤
 11. **永远不要跳过训练日相邻 CNS 校验** — 日程变更后必须重跑相邻日冲突检查（见 Step 5 "训练日相邻 CNS 校验"）
 12. **永远不要忽略用户报告的 nRM 数据** — 5×5、3RM 等信息必须反推并同步校准 profile 中的 1RM 登记值
+13. **永远不要在修复 bug / 日程变更 / 校准 profile 后跳过 `mp_store`** — 见 Step 6.5。顺序必须是 mp_search → 修复 → mp_store → 报告，顺序颠倒或省略 mp_store 等于下次同类问题必复发（历史案例：2026-04-17 Stan 亲自点出"我不希望你继续孤立执行"）
+14. **永远不要在报告"完成"之前不附带记忆宫殿的存储 ID** — 闭环验证形式：`已 mp_store 到 {wing}/{room}/{hall} (ID: xxxxxxx)`
