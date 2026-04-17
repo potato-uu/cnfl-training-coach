@@ -174,7 +174,7 @@ cnfl-training-coach/
 ├── .gitignore                        # 屏蔽 profiles/ 个人档案
 ├── evals/                            # 黄金回归测试
 │   ├── README.md                     # 运行方式
-│   └── cases.md                      # 10 个黄金案例
+│   └── cases.md                      # 16 个黄金案例
 ├── profiles/                         # 本地私有档案（.gitignore，不进 repo）
 │   └── README.md                     # 模板：knowledge-[athlete-id]-protocols.md
 └── references/

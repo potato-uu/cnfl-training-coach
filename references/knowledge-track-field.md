@@ -1,4 +1,4 @@
-# Track & Field — Event Demands, Training Methods, and Periodization
+# 田径专项体能 — 项目需求、训练方法与周期化
 
 **Sources:**
 1. Dan Pfaff — ALTIS Head Coach; coached 40+ Olympic medalists including Donovan Bailey (9.84 WR, 1996), Bruny Surin, and multiple world champions in jumps/hurdles. Primary source: ALTIS coaching education modules and various public lectures.
@@ -9,7 +9,7 @@
 
 ---
 
-### 1. 项目专项需求分析（Event-Specific Demands）
+### 1. 项目专项需求分析
 
 **不同径赛和田赛项目对能量系统和力量素质的要求差异极大——错误的专项定位是业余训练最常见的失误。**
 
@@ -51,7 +51,7 @@
 
 ---
 
-### 2. 加速阶段训练（Acceleration Phase Training）
+### 2. 加速阶段训练
 
 **加速训练是径赛和田赛基础，但 T&F 加速训练与团队运动加速训练在结构和要求上有本质差异。**
 
@@ -85,7 +85,7 @@
 
 ---
 
-### 3. 最高速度力学（Maximum Velocity Mechanics）
+### 3. 最高速度力学
 
 **最高速阶段是 100m 成绩的天花板——绝大多数业余选手的顶速从未被系统性训练。**
 
@@ -114,7 +114,7 @@
 
 ---
 
-### 4. 速度耐力与特殊耐力（Speed Endurance & Special Endurance）
+### 4. 速度耐力与特殊耐力
 
 **200m/400m 的训练与 100m 的本质区别是：需要主动在疲劳状态下维持高速——这必须被直接训练。**
 
@@ -156,7 +156,7 @@
 
 ---
 
-### 5. 跳跃项目训练（Jumps Event Training）
+### 5. 跳跃项目训练
 
 **跳跃项目是速度训练与力量训练的交叉点——助跑速度和起跳力量缺一不可。**
 
@@ -183,6 +183,8 @@
 | 跨步跳（Alternating Bounds）| 全身弹性能力 | 距离 **30~40m**；最大化每步距离 |
 | 跳箱落地（Box Drop）| 反应力量（RSI）| 从 **30~50cm** 箱落地，立刻起跳 |
 
+> **深度跳容量上限与 SSC 进阶参见 `knowledge-cal-dietz.md` §4；plyometric 分级层次参见 `knowledge-vertical-jump.md` §4.2–4.3。**
+
 **Schexnayder 原则：** 增强式训练必须在最高速冲刺**之后**进行（神经激活顺序），而非之前；先跑后跳，保留神经系统最佳状态给冲刺。
 
 #### 全能项目（Decathlon / Heptathlon）训练要点
@@ -192,7 +194,7 @@
 
 ---
 
-### 6. 田径周期化（T&F Periodization）
+### 6. 田径周期化
 
 **田径个人项目的周期化逻辑与团队运动完全不同——个人精准冲顶，无需配合全队训练节奏。**
 
@@ -235,7 +237,7 @@
 
 ---
 
-### 7. 业余田径运动员专项注意事项（Amateur T&F Specifics）
+### 7. 业余田径运动员专项注意事项
 
 **业余自训选手犯的错误有固定模式——识别这些模式比增加训练量更有价值。**
 
@@ -296,7 +298,7 @@
 
 ---
 
-### 8. 关键数字速查表（T&F Quick Reference）
+### 8. 关键数字速查表
 
 | 变量 | 数值 |
 |-----|------|

@@ -210,6 +210,7 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 深蹲/体重比 | 1.4x | 力量基础 |
 
 > 篮球用户：速度诊断优先用**垂直跳 + 30m冲刺**，5-10-5作为变向补充。
+> 启用 `knowledge-basketball.md` 时，以 Section 1.2 位置专项基准覆盖上表通用值。
 
 **排球（业余联赛水平）**
 
@@ -220,6 +221,7 @@ git clone https://github.com/potato-uu/cnfl-training-coach ~/.claude/skills/cnfl
 | 深蹲/体重比 | 1.3x | 力量基础 |
 
 > 排球用户：主攻/副攻以垂直跳为核心指标，二传/自由人以变向能力为核心。
+> 启用 `knowledge-volleyball.md` 时，以 Part 1 各位置基准覆盖上表通用值。
 
 **田径短跑（业余水平）**
 
@@ -349,14 +351,14 @@ IF 今天 ≥ 赛季开始日期 THEN current_phase = inseason
 - `references/knowledge-triphasic-book.md` — Cal Dietz《Triphasic Training》原书：离心/等长/向心三相节奏、法式对比全集、12周 offseason 块组模板
 - `references/knowledge-zatsiorsky.md` — Zatsiorsky《Science & Practice of Strength Training》：ME/RE/DE 三方法强度区间（ME ≥85% / RE 70-80% / DE 50-70%）、力量-肥大-速度转化原理、组间休息科学
 
-**篮球专项模块（仅篮球用户读取）**
+**篮球专项模块（仅篮球用户读取；非篮球用户跳过此文件）**
 - `references/knowledge-basketball.md` — 篮球专项知识（401行）：位置需求矩阵（PG/SG/SF/PF/C）、篮球COD五大动作模式、垂直跳站立vs助跑差异、赛季内最低有效剂量、踝/ACL/髌腱预防、28m短场RSA体能
 
-**排球专项模块（仅排球用户读取）**
-- `references/knowledge-volleyball.md` — 排球专项知识（413行）：位置需求（主攻/副攻/二传/自由人）、三步助跑跳跃力学、肩部扣球量管理（训练日≤80次/周≤400次）、髌腱病预防、Rally能量系统分析
+**排球专项模块（仅排球用户读取；非排球用户跳过此文件）**
+- `references/knowledge-volleyball.md` — 排球专项知识（393行）：位置需求（主攻/副攻/二传/自由人）、三步助跑跳跃力学、肩部扣球量管理（训练日≤80次/周≤400次）、髌腱病预防、Rally能量系统分析
 
-**田径专项模块（仅田径用户读取）**
-- `references/knowledge-track-field.md` — 田径短跑/跳跃专项知识（320行）：加速阶段起跑架参数、最高速GCT分层、速度耐力五级强度、跳远助跑一致性、单峰/双峰周期化、业余常见错误
+**田径专项模块（仅田径用户读取；非田径用户跳过此文件）**
+- `references/knowledge-track-field.md` — 田径短跑/跳跃专项知识（322行）：加速阶段起跑架参数、最高速GCT分层、速度耐力五级强度、跳远助跑一致性、单峰/双峰周期化、业余常见错误
 
 **美式橄榄球专项模块（仅橄榄球用户读取）**
 - `references/knowledge-lineman-training.md` — 锋线（OL/DL）5天分化方案；**非橄榄球用户跳过此文件**
